@@ -7,8 +7,10 @@
 //
 
 #import "AppDelegate.h"
+#import "SimpleController.h"
 
 @interface AppDelegate ()
+@property (nonatomic, readonly) SimpleController* simpleController;
 
 @end
 
@@ -17,6 +19,12 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
+    _simpleController = [[SimpleController alloc]
+                         initWithNibName:@"SimpleController"
+                         bundle:nil];
+    self.window.rootViewController = _simpleController;
+
+    
     return YES;
 }
 

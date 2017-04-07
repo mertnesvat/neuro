@@ -7,6 +7,7 @@
 //
 
 #import <UIKit/UIKit.h>
+#import <Muse/Muse.h>
 
 @interface AppDelegate : UIResponder <UIApplicationDelegate>
 

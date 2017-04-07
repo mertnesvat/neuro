@@ -9,12 +9,16 @@
 /* Begin PBXBuildFile section */
 		603D437F1E9804F7004D9666 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 603D437E1E9804F7004D9666 /* main.m */; };
 		603D43821E9804F7004D9666 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 603D43811E9804F7004D9666 /* AppDelegate.m */; };
-		603D43851E9804F7004D9666 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 603D43841E9804F7004D9666 /* ViewController.m */; };
 		603D43881E9804F8004D9666 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 603D43861E9804F8004D9666 /* Main.storyboard */; };
 		603D438A1E9804F8004D9666 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 603D43891E9804F8004D9666 /* Assets.xcassets */; };
 		603D438D1E9804F8004D9666 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 603D438B1E9804F8004D9666 /* LaunchScreen.storyboard */; };
 		603D43981E9804F8004D9666 /* neuroTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 603D43971E9804F8004D9666 /* neuroTests.m */; };
 		603D43A31E9804F8004D9666 /* neuroUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 603D43A21E9804F8004D9666 /* neuroUITests.m */; };
+		603D43B11E980604004D9666 /* Muse.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 603D43B01E980604004D9666 /* Muse.framework */; };
+		603D43B41E98062D004D9666 /* CoreBluetooth.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 603D43B31E98062D004D9666 /* CoreBluetooth.framework */; };
+		603D43B61E98063A004D9666 /* libc++.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 603D43B51E98063A004D9666 /* libc++.tbd */; };
+		603D43BA1E9806AA004D9666 /* SimpleController.m in Sources */ = {isa = PBXBuildFile; fileRef = 603D43B81E9806AA004D9666 /* SimpleController.m */; };
+		603D43BB1E9806AA004D9666 /* SimpleController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 603D43B91E9806AA004D9666 /* SimpleController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,8 +43,6 @@
 		603D437E1E9804F7004D9666 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		603D43801E9804F7004D9666 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		603D43811E9804F7004D9666 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		603D43831E9804F7004D9666 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		603D43841E9804F7004D9666 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		603D43871E9804F8004D9666 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		603D43891E9804F8004D9666 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		603D438C1E9804F8004D9666 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -51,6 +53,12 @@
 		603D439E1E9804F8004D9666 /* neuroUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = neuroUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		603D43A21E9804F8004D9666 /* neuroUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = neuroUITests.m; sourceTree = "<group>"; };
 		603D43A41E9804F8004D9666 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		603D43B01E980604004D9666 /* Muse.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Muse.framework; sourceTree = "<group>"; };
+		603D43B31E98062D004D9666 /* CoreBluetooth.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreBluetooth.framework; path = System/Library/Frameworks/CoreBluetooth.framework; sourceTree = SDKROOT; };
+		603D43B51E98063A004D9666 /* libc++.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libc++.tbd"; path = "usr/lib/libc++.tbd"; sourceTree = SDKROOT; };
+		603D43B71E9806AA004D9666 /* SimpleController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SimpleController.h; sourceTree = "<group>"; };
+		603D43B81E9806AA004D9666 /* SimpleController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SimpleController.m; sourceTree = "<group>"; };
+		603D43B91E9806AA004D9666 /* SimpleController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SimpleController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +66,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				603D43B61E98063A004D9666 /* libc++.tbd in Frameworks */,
+				603D43B41E98062D004D9666 /* CoreBluetooth.framework in Frameworks */,
+				603D43B11E980604004D9666 /* Muse.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -85,6 +96,7 @@
 				603D43961E9804F8004D9666 /* neuroTests */,
 				603D43A11E9804F8004D9666 /* neuroUITests */,
 				603D437B1E9804F7004D9666 /* Products */,
+				603D43B21E98062D004D9666 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -103,12 +115,14 @@
 			children = (
 				603D43801E9804F7004D9666 /* AppDelegate.h */,
 				603D43811E9804F7004D9666 /* AppDelegate.m */,
-				603D43831E9804F7004D9666 /* ViewController.h */,
-				603D43841E9804F7004D9666 /* ViewController.m */,
 				603D43861E9804F8004D9666 /* Main.storyboard */,
-				603D43891E9804F8004D9666 /* Assets.xcassets */,
 				603D438B1E9804F8004D9666 /* LaunchScreen.storyboard */,
 				603D438E1E9804F8004D9666 /* Info.plist */,
+				603D43B71E9806AA004D9666 /* SimpleController.h */,
+				603D43B81E9806AA004D9666 /* SimpleController.m */,
+				603D43B91E9806AA004D9666 /* SimpleController.xib */,
+				603D43891E9804F8004D9666 /* Assets.xcassets */,
+				603D43B01E980604004D9666 /* Muse.framework */,
 				603D437D1E9804F7004D9666 /* Supporting Files */,
 			);
 			path = neuro;
@@ -138,6 +152,15 @@
 				603D43A41E9804F8004D9666 /* Info.plist */,
 			);
 			path = neuroUITests;
+			sourceTree = "<group>";
+		};
+		603D43B21E98062D004D9666 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				603D43B51E98063A004D9666 /* libc++.tbd */,
+				603D43B31E98062D004D9666 /* CoreBluetooth.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -252,6 +275,7 @@
 				603D438D1E9804F8004D9666 /* LaunchScreen.storyboard in Resources */,
 				603D438A1E9804F8004D9666 /* Assets.xcassets in Resources */,
 				603D43881E9804F8004D9666 /* Main.storyboard in Resources */,
+				603D43BB1E9806AA004D9666 /* SimpleController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -276,9 +300,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				603D43851E9804F7004D9666 /* ViewController.m in Sources */,
 				603D43821E9804F7004D9666 /* AppDelegate.m in Sources */,
 				603D437F1E9804F7004D9666 /* main.m in Sources */,
+				603D43BA1E9806AA004D9666 /* SimpleController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -428,6 +452,10 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 3YA74M59BZ;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/neuro",
+				);
 				INFOPLIST_FILE = neuro/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.mertnesvat.neuro;
@@ -440,6 +468,10 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 3YA74M59BZ;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/neuro",
+				);
 				INFOPLIST_FILE = neuro/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.mertnesvat.neuro;
