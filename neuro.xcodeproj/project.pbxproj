@@ -452,6 +452,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 3YA74M59BZ;
+				ENABLE_BITCODE = NO;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/neuro",
@@ -468,6 +469,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 3YA74M59BZ;
+				ENABLE_BITCODE = NO;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/neuro",
@@ -548,6 +550,7 @@
 				603D43A91E9804F8004D9666 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		603D43AA1E9804F8004D9666 /* Build configuration list for PBXNativeTarget "neuroTests" */ = {
 			isa = XCConfigurationList;
@@ -556,6 +559,7 @@
 				603D43AC1E9804F8004D9666 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		603D43AD1E9804F8004D9666 /* Build configuration list for PBXNativeTarget "neuroUITests" */ = {
 			isa = XCConfigurationList;
@@ -564,6 +568,7 @@
 				603D43AF1E9804F8004D9666 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
