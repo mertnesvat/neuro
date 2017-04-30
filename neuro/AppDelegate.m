@@ -8,6 +8,7 @@
 
 #import "AppDelegate.h"
 #import "SimpleController.h"
+#import "Singleton.h"
 
 @interface AppDelegate ()
 @property (nonatomic, readonly) SimpleController* simpleController;
@@ -19,11 +20,10 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
-    _simpleController = [[SimpleController alloc]
-                         initWithNibName:@"SimpleController"
-                         bundle:nil];
-    self.window.rootViewController = _simpleController;
 
+    [Singleton shared];
+    
+    
     
     return YES;
 }

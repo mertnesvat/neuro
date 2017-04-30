@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>SchemeUserState</key>
+	<dict>
+		<key>Pods-neuro.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>Pods-neuroTests.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>Pods-neuroUITests.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+	</dict>
+	<key>SuppressBuildableAutocreation</key>
+	<dict>
+		<key>49600D73A29C91DF8C008A5EE835FA4E</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>61237C8A7A86C372F92F74CF1A111EEC</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>6CAE1B89B6855F3AD3340DF0FC08EEF9</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>CABFE0CF9B91D2A99BEFCEB00A692CE5</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>F307B842FF76B2DE6C55DB67C0885325</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+	</dict>
+</dict>
+</plist>

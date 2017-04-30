@@ -7,7 +7,14 @@
 //
 
 #import <Foundation/Foundation.h>
+#import <Muse/Muse.h>
 
-@interface Singleton : NSObject
+@interface Singleton : NSObject{
+    
+}
+@property IXNMuseManagerIos * manager;
+@property (weak, nonatomic) IXNMuse * muse;
+
++ (Singleton *)shared;
 
 @end

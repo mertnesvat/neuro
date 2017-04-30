@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		25D2A96F840E0191E0FF0201 /* Pods_neuro.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B6CC9FBD4650193B96F3F24D /* Pods_neuro.framework */; };
+		4D2598FFF7EE98185BA23CD6 /* Pods_neuroTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0FF881F4BC42EB9F3C3BCB92 /* Pods_neuroTests.framework */; };
 		603D437F1E9804F7004D9666 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 603D437E1E9804F7004D9666 /* main.m */; };
 		603D43821E9804F7004D9666 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 603D43811E9804F7004D9666 /* AppDelegate.m */; };
 		603D43881E9804F8004D9666 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 603D43861E9804F8004D9666 /* Main.storyboard */; };
@@ -19,6 +21,11 @@
 		603D43B61E98063A004D9666 /* libc++.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 603D43B51E98063A004D9666 /* libc++.tbd */; };
 		603D43BA1E9806AA004D9666 /* SimpleController.m in Sources */ = {isa = PBXBuildFile; fileRef = 603D43B81E9806AA004D9666 /* SimpleController.m */; };
 		603D43BB1E9806AA004D9666 /* SimpleController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 603D43B91E9806AA004D9666 /* SimpleController.xib */; };
+		6073236D1EB68C5A00D4BBAF /* DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6073236C1EB68C5A00D4BBAF /* DetailViewController.m */; };
+		607323701EB68D7A00D4BBAF /* Singleton.m in Sources */ = {isa = PBXBuildFile; fileRef = 6073236F1EB68D7A00D4BBAF /* Singleton.m */; };
+		607323761EB6A03000D4BBAF /* neuro.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607323751EB6A03000D4BBAF /* neuro.swift */; };
+		60B96BA01EB54F0E00D9BED5 /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 60B96B9F1EB54F0E00D9BED5 /* MainViewController.m */; };
+		F1F2BA8E615FA891594A30B3 /* Pods_neuroUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5F219722FD0D0D5672A18397 /* Pods_neuroUITests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,6 +46,13 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0FF881F4BC42EB9F3C3BCB92 /* Pods_neuroTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_neuroTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		22988033FA652259BD65F3D4 /* Pods-neuroUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-neuroUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-neuroUITests/Pods-neuroUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		420478CE3F3E20D22637DBEC /* Pods-neuroTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-neuroTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-neuroTests/Pods-neuroTests.debug.xcconfig"; sourceTree = "<group>"; };
+		42E45A79627DAB3C28D4859C /* Pods-neuroTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-neuroTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-neuroTests/Pods-neuroTests.release.xcconfig"; sourceTree = "<group>"; };
+		4AB012107F4EE16DFDD7C3D9 /* Pods-neuro.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-neuro.debug.xcconfig"; path = "Pods/Target Support Files/Pods-neuro/Pods-neuro.debug.xcconfig"; sourceTree = "<group>"; };
+		535660F61D8FC7BD43F36712 /* Pods-neuroUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-neuroUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-neuroUITests/Pods-neuroUITests.release.xcconfig"; sourceTree = "<group>"; };
+		5F219722FD0D0D5672A18397 /* Pods_neuroUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_neuroUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		603D437A1E9804F7004D9666 /* neuro.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = neuro.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		603D437E1E9804F7004D9666 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		603D43801E9804F7004D9666 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -59,6 +73,16 @@
 		603D43B71E9806AA004D9666 /* SimpleController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SimpleController.h; sourceTree = "<group>"; };
 		603D43B81E9806AA004D9666 /* SimpleController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SimpleController.m; sourceTree = "<group>"; };
 		603D43B91E9806AA004D9666 /* SimpleController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SimpleController.xib; sourceTree = "<group>"; };
+		6073236B1EB68C5A00D4BBAF /* DetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DetailViewController.h; path = VC/DetailViewController.h; sourceTree = "<group>"; };
+		6073236C1EB68C5A00D4BBAF /* DetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DetailViewController.m; path = VC/DetailViewController.m; sourceTree = "<group>"; };
+		6073236E1EB68D7A00D4BBAF /* Singleton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Singleton.h; sourceTree = "<group>"; };
+		6073236F1EB68D7A00D4BBAF /* Singleton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Singleton.m; sourceTree = "<group>"; };
+		607323741EB6A02F00D4BBAF /* neuro-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "neuro-Bridging-Header.h"; sourceTree = "<group>"; };
+		607323751EB6A03000D4BBAF /* neuro.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = neuro.swift; path = neuro/neuro.swift; sourceTree = "<group>"; };
+		60B96B9E1EB54F0E00D9BED5 /* MainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MainViewController.h; path = VC/MainViewController.h; sourceTree = "<group>"; };
+		60B96B9F1EB54F0E00D9BED5 /* MainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MainViewController.m; path = VC/MainViewController.m; sourceTree = "<group>"; };
+		7AA7739F3A9B81A91C66DC56 /* Pods-neuro.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-neuro.release.xcconfig"; path = "Pods/Target Support Files/Pods-neuro/Pods-neuro.release.xcconfig"; sourceTree = "<group>"; };
+		B6CC9FBD4650193B96F3F24D /* Pods_neuro.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_neuro.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -69,6 +93,7 @@
 				603D43B61E98063A004D9666 /* libc++.tbd in Frameworks */,
 				603D43B41E98062D004D9666 /* CoreBluetooth.framework in Frameworks */,
 				603D43B11E980604004D9666 /* Muse.framework in Frameworks */,
+				25D2A96F840E0191E0FF0201 /* Pods_neuro.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -76,6 +101,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4D2598FFF7EE98185BA23CD6 /* Pods_neuroTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -83,20 +109,37 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F1F2BA8E615FA891594A30B3 /* Pods_neuroUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1804CD28E31078C559777C07 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				4AB012107F4EE16DFDD7C3D9 /* Pods-neuro.debug.xcconfig */,
+				7AA7739F3A9B81A91C66DC56 /* Pods-neuro.release.xcconfig */,
+				420478CE3F3E20D22637DBEC /* Pods-neuroTests.debug.xcconfig */,
+				42E45A79627DAB3C28D4859C /* Pods-neuroTests.release.xcconfig */,
+				22988033FA652259BD65F3D4 /* Pods-neuroUITests.debug.xcconfig */,
+				535660F61D8FC7BD43F36712 /* Pods-neuroUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		603D43711E9804F7004D9666 = {
 			isa = PBXGroup;
 			children = (
+				607323751EB6A03000D4BBAF /* neuro.swift */,
 				603D437C1E9804F7004D9666 /* neuro */,
 				603D43961E9804F8004D9666 /* neuroTests */,
 				603D43A11E9804F8004D9666 /* neuroUITests */,
 				603D437B1E9804F7004D9666 /* Products */,
 				603D43B21E98062D004D9666 /* Frameworks */,
+				1804CD28E31078C559777C07 /* Pods */,
+				607323741EB6A02F00D4BBAF /* neuro-Bridging-Header.h */,
 			);
 			sourceTree = "<group>";
 		};
@@ -120,6 +163,9 @@
 				603D438E1E9804F8004D9666 /* Info.plist */,
 				603D43B71E9806AA004D9666 /* SimpleController.h */,
 				603D43B81E9806AA004D9666 /* SimpleController.m */,
+				6073236E1EB68D7A00D4BBAF /* Singleton.h */,
+				6073236F1EB68D7A00D4BBAF /* Singleton.m */,
+				60B96BA11EB54F1400D9BED5 /* Scenes */,
 				603D43B91E9806AA004D9666 /* SimpleController.xib */,
 				603D43891E9804F8004D9666 /* Assets.xcassets */,
 				603D43B01E980604004D9666 /* Muse.framework */,
@@ -159,8 +205,30 @@
 			children = (
 				603D43B51E98063A004D9666 /* libc++.tbd */,
 				603D43B31E98062D004D9666 /* CoreBluetooth.framework */,
+				B6CC9FBD4650193B96F3F24D /* Pods_neuro.framework */,
+				0FF881F4BC42EB9F3C3BCB92 /* Pods_neuroTests.framework */,
+				5F219722FD0D0D5672A18397 /* Pods_neuroUITests.framework */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		60B96BA11EB54F1400D9BED5 /* Scenes */ = {
+			isa = PBXGroup;
+			children = (
+				60B96BA21EB54F1E00D9BED5 /* Main */,
+			);
+			name = Scenes;
+			sourceTree = "<group>";
+		};
+		60B96BA21EB54F1E00D9BED5 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				6073236B1EB68C5A00D4BBAF /* DetailViewController.h */,
+				6073236C1EB68C5A00D4BBAF /* DetailViewController.m */,
+				60B96B9E1EB54F0E00D9BED5 /* MainViewController.h */,
+				60B96B9F1EB54F0E00D9BED5 /* MainViewController.m */,
+			);
+			name = Main;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -170,9 +238,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 603D43A71E9804F8004D9666 /* Build configuration list for PBXNativeTarget "neuro" */;
 			buildPhases = (
+				ADF1C9AA4EFC71E05D88C0CE /* [CP] Check Pods Manifest.lock */,
 				603D43761E9804F7004D9666 /* Sources */,
 				603D43771E9804F7004D9666 /* Frameworks */,
 				603D43781E9804F7004D9666 /* Resources */,
+				963DCD891CCC551C5D826414 /* [CP] Embed Pods Frameworks */,
+				29E7BD236C4971FF171BB9F7 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -187,9 +258,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 603D43AA1E9804F8004D9666 /* Build configuration list for PBXNativeTarget "neuroTests" */;
 			buildPhases = (
+				3E8D575ADA50C83F3D624878 /* [CP] Check Pods Manifest.lock */,
 				603D438F1E9804F8004D9666 /* Sources */,
 				603D43901E9804F8004D9666 /* Frameworks */,
 				603D43911E9804F8004D9666 /* Resources */,
+				1CA9C6CC4DD76704B7255F87 /* [CP] Embed Pods Frameworks */,
+				D73ED1EC61F406E78037AE87 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -205,9 +279,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 603D43AD1E9804F8004D9666 /* Build configuration list for PBXNativeTarget "neuroUITests" */;
 			buildPhases = (
+				B214D583B61D9B1F05F3CE67 /* [CP] Check Pods Manifest.lock */,
 				603D439A1E9804F8004D9666 /* Sources */,
 				603D439B1E9804F8004D9666 /* Frameworks */,
 				603D439C1E9804F8004D9666 /* Resources */,
+				19A71BC2D5E8CDA359E07C9F /* [CP] Embed Pods Frameworks */,
+				03FBA450CBC774D57709CB9F /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -231,6 +308,7 @@
 					603D43791E9804F7004D9666 = {
 						CreatedOnToolsVersion = 8.2.1;
 						DevelopmentTeam = 3YA74M59BZ;
+						LastSwiftMigration = 0830;
 						ProvisioningStyle = Automatic;
 					};
 					603D43921E9804F8004D9666 = {
@@ -295,14 +373,156 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		03FBA450CBC774D57709CB9F /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-neuroUITests/Pods-neuroUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		19A71BC2D5E8CDA359E07C9F /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-neuroUITests/Pods-neuroUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		1CA9C6CC4DD76704B7255F87 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-neuroTests/Pods-neuroTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		29E7BD236C4971FF171BB9F7 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-neuro/Pods-neuro-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		3E8D575ADA50C83F3D624878 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		963DCD891CCC551C5D826414 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-neuro/Pods-neuro-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		ADF1C9AA4EFC71E05D88C0CE /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		B214D583B61D9B1F05F3CE67 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		D73ED1EC61F406E78037AE87 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-neuroTests/Pods-neuroTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		603D43761E9804F7004D9666 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6073236D1EB68C5A00D4BBAF /* DetailViewController.m in Sources */,
+				607323761EB6A03000D4BBAF /* neuro.swift in Sources */,
 				603D43821E9804F7004D9666 /* AppDelegate.m in Sources */,
 				603D437F1E9804F7004D9666 /* main.m in Sources */,
+				607323701EB68D7A00D4BBAF /* Singleton.m in Sources */,
 				603D43BA1E9806AA004D9666 /* SimpleController.m in Sources */,
+				60B96BA01EB54F0E00D9BED5 /* MainViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -449,8 +669,10 @@
 		};
 		603D43A81E9804F8004D9666 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4AB012107F4EE16DFDD7C3D9 /* Pods-neuro.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				DEVELOPMENT_TEAM = 3YA74M59BZ;
 				ENABLE_BITCODE = NO;
 				FRAMEWORK_SEARCH_PATHS = (
@@ -461,13 +683,18 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.mertnesvat.neuro;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "neuro-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
 		};
 		603D43A91E9804F8004D9666 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7AA7739F3A9B81A91C66DC56 /* Pods-neuro.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				DEVELOPMENT_TEAM = 3YA74M59BZ;
 				ENABLE_BITCODE = NO;
 				FRAMEWORK_SEARCH_PATHS = (
@@ -478,12 +705,16 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.mertnesvat.neuro;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "neuro-Bridging-Header.h";
+				SWIFT_VERSION = 3.0;
 			};
 			name = Release;
 		};
 		603D43AB1E9804F8004D9666 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 420478CE3F3E20D22637DBEC /* Pods-neuroTests.debug.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				DEVELOPMENT_TEAM = 3YA74M59BZ;
 				INFOPLIST_FILE = neuroTests/Info.plist;
@@ -496,7 +727,9 @@
 		};
 		603D43AC1E9804F8004D9666 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 42E45A79627DAB3C28D4859C /* Pods-neuroTests.release.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				DEVELOPMENT_TEAM = 3YA74M59BZ;
 				INFOPLIST_FILE = neuroTests/Info.plist;
@@ -509,7 +742,9 @@
 		};
 		603D43AE1E9804F8004D9666 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 22988033FA652259BD65F3D4 /* Pods-neuroUITests.debug.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				DEVELOPMENT_TEAM = 3YA74M59BZ;
 				INFOPLIST_FILE = neuroUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
@@ -521,7 +756,9 @@
 		};
 		603D43AF1E9804F8004D9666 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 535660F61D8FC7BD43F36712 /* Pods-neuroUITests.release.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				DEVELOPMENT_TEAM = 3YA74M59BZ;
 				INFOPLIST_FILE = neuroUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
