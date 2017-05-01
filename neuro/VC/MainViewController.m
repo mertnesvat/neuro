@@ -7,17 +7,13 @@
 //
 
 #import "MainViewController.h"
-#import <CoreBluetooth/CoreBluetooth.h>
-#import "Singleton.h"
+
 
 @interface MainViewController () <CBCentralManagerDelegate>
-@property IXNMuseManagerIos * manager;
-@property (weak, nonatomic) IXNMuse * muse;
 @property (nonatomic) NSMutableArray* logLines;
 @property (nonatomic) BOOL lastBlink;
 @property (strong,nonatomic) NSMutableArray *values;
 @property (strong,nonatomic) NSMutableArray *values2;
-
 
 @end
 
@@ -26,18 +22,14 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     
-    [UIApplication sharedApplication].idleTimerDisabled = YES;
-    if (!self.manager) {
-        self.manager = [IXNMuseManagerIos sharedManager];
-    }
     [self setMuseManager];
     
     [self.manager startListening];
     
     [Singleton shared].manager = self.manager;
     
+    [self performSegueWithIdentifier:@"goToDetail" sender:self];
 
-    
 
     
     // Do any additional setup after loading the view.
@@ -139,6 +131,7 @@
             break;
         case IXNConnectionStateConnected:
             state = @"connected";
+            [self performSegueWithIdentifier:@"goToDetail" sender:self];
             break;
         case IXNConnectionStateConnecting:
             state = @"connecting";
@@ -190,7 +183,7 @@
     [self.muse disconnect];
 }
 
-/*
+
 #pragma mark - Navigation
 
 // In a storyboard-based application, you will often want to do a little preparation before navigation
@@ -198,6 +191,6 @@
     // Get the new view controller using [segue destinationViewController].
     // Pass the selected object to the new view controller.
 }
-*/
+
 
 @end

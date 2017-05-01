@@ -9,6 +9,7 @@
 #import "AppDelegate.h"
 #import "SimpleController.h"
 #import "Singleton.h"
+#import <Charts/Charts.h>
 
 @interface AppDelegate ()
 @property (nonatomic, readonly) SimpleController* simpleController;

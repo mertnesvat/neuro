@@ -17,6 +17,11 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view.
+    [UIApplication sharedApplication].idleTimerDisabled = YES;
+    if (!self.manager) {
+        self.manager = [IXNMuseManagerIos sharedManager];
+    }
+    
 }
 
 - (void)didReceiveMemoryWarning {

@@ -7,117 +7,102 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		1ED68CD58FB8DC8B26B709D3A628F521 /* Pods-neuroUITests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 541330B21E276C17521CF6A5A722E60A /* Pods-neuroUITests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		76F597959B79DC539C54F6468AF29FA1 /* Pods-neuroTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 2277196BB22D23D88DE9B19D48476493 /* Pods-neuroTests-dummy.m */; };
-		77014BBFFBD1521F4E416E5DCEFA57FD /* Pods-neuroTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = F9DDC868CD4BBCD81CE3896639CFA9CA /* Pods-neuroTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		82506EE6EA07E7D6EAF11D145E68A44F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
-		83E4DC6749A19822B808E8C2352D04D2 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
-		8960B1F47089A8E4F374099EA6D126D1 /* Pods-neuroUITests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D42878C7997112C1E2243687585B060 /* Pods-neuroUITests-dummy.m */; };
-		A2E126BF54DC7FCFBFE5663EBEB5F588 /* Pods-neuro-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 952CF4978DEF5E4812F975783654F2E0 /* Pods-neuro-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		C4B3E1CCBEF604497336706B95C3485F /* Pods-neuro-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = CE73283A9F0C047905143BA3F4A5E11D /* Pods-neuro-dummy.m */; };
-		D1822299D6E24B3D6A9062AB837CB4A1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
+		0450832A481FA67FC39AB9A510386EEE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
+		27E6D3257326005958F17F7C1A4D35D3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
+		2A6C7399A5C325B649EC021212A5D7F6 /* Pods-neuroUITests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 53A51BB720AC023FF2EBA8304F5994E8 /* Pods-neuroUITests-dummy.m */; };
+		55F329BFC76F1819BDD2920102895353 /* Pods-neuroTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B9968847AE642EF93BB7009CF283C0C /* Pods-neuroTests-dummy.m */; };
+		C65222F589F1669CBB50D0934BB3D060 /* Pods-neuro-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 93DC652DDF7B87FEA6AD124F87914F05 /* Pods-neuro-dummy.m */; };
+		CD48B9E072A9B686453C7B0D21BCAB58 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		16A856FF936E452CF36EFC1E90A1A307 /* Pods-neuro-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-neuro-resources.sh"; sourceTree = "<group>"; };
-		192A8ECDA76ECF78FC3CA1F26F1ACD25 /* Pods-neuroTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-neuroTests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		2277196BB22D23D88DE9B19D48476493 /* Pods-neuroTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-neuroTests-dummy.m"; sourceTree = "<group>"; };
-		249521EF22C2EBBA99C0E655B3D8A895 /* Pods-neuroUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-neuroUITests.release.xcconfig"; sourceTree = "<group>"; };
-		24CFC5906202099AFE8A0520F622B8A4 /* Pods-neuroTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-neuroTests.release.xcconfig"; sourceTree = "<group>"; };
-		277178C26B7F7BE9AF91A7F6EFB3453E /* Pods-neuroUITests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-neuroUITests-resources.sh"; sourceTree = "<group>"; };
-		2D42878C7997112C1E2243687585B060 /* Pods-neuroUITests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-neuroUITests-dummy.m"; sourceTree = "<group>"; };
-		2D5F13EF6967945A512C5E9135C7098F /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		3D5C9B02557559053722B610FEC21E4B /* Pods-neuro-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-neuro-frameworks.sh"; sourceTree = "<group>"; };
-		40E419DDB1743CD00651D8C36932A9BF /* Pods-neuroTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-neuroTests-acknowledgements.plist"; sourceTree = "<group>"; };
-		429D6D85122B45961F3690C50F6B0C0B /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		541330B21E276C17521CF6A5A722E60A /* Pods-neuroUITests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-neuroUITests-umbrella.h"; sourceTree = "<group>"; };
-		6FCE45ECDC751D12E01FB4A617871A9C /* Pods-neuro-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-neuro-acknowledgements.markdown"; sourceTree = "<group>"; };
-		756BB7A2F9B72B7AE51B8CC88BBF4A8E /* Pods-neuroUITests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-neuroUITests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		7E841D3F87B944628FEF486EBA886127 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		088AB2B5B52CCDA40C129103CF786D47 /* Pods-neuroTests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-neuroTests-resources.sh"; sourceTree = "<group>"; };
+		0D214199BA6B686026500524CB4E758D /* Pods-neuroUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-neuroUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		10C556B436E8CE0E0CA70448BC0190E7 /* Pods-neuroTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-neuroTests-acknowledgements.plist"; sourceTree = "<group>"; };
+		2998C9827AB2D668F8E9E1FBC63866AE /* Pods-neuroUITests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-neuroUITests-frameworks.sh"; sourceTree = "<group>"; };
+		3593301B0762E4430CABC77D71FA84A8 /* libPods-neuroUITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-neuroUITests.a"; path = "libPods-neuroUITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3BAB89E8ED3A5D20AA618B1B2FEBD9AF /* Pods-neuroUITests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-neuroUITests-acknowledgements.plist"; sourceTree = "<group>"; };
+		4507A3F75653F108DA715B8075B648A0 /* Pods-neuro.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-neuro.debug.xcconfig"; sourceTree = "<group>"; };
+		53A51BB720AC023FF2EBA8304F5994E8 /* Pods-neuroUITests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-neuroUITests-dummy.m"; sourceTree = "<group>"; };
+		583899B4C47D966EE67D379DBE9D535B /* libPods-neuro.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-neuro.a"; path = "libPods-neuro.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		62E8928B015591CF9413049E88E1A6C3 /* Pods-neuro.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-neuro.release.xcconfig"; sourceTree = "<group>"; };
+		631B75086A28B333E6C4CA9CFD82294D /* Pods-neuro-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-neuro-resources.sh"; sourceTree = "<group>"; };
+		631F537E88E014425DDD8D9390F77150 /* libPods-neuroTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-neuroTests.a"; path = "libPods-neuroTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		64A65A406806272B7E2FA5E5855F0F32 /* Pods-neuroUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-neuroUITests.release.xcconfig"; sourceTree = "<group>"; };
+		6ED93247A68732124FA46DB0CB9BB6F3 /* Pods-neuroTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-neuroTests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		7B9968847AE642EF93BB7009CF283C0C /* Pods-neuroTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-neuroTests-dummy.m"; sourceTree = "<group>"; };
 		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		95070C524DED41782BC28584F11A76D6 /* Pods_neuroTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_neuroTests.framework; path = "Pods-neuroTests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		952CF4978DEF5E4812F975783654F2E0 /* Pods-neuro-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-neuro-umbrella.h"; sourceTree = "<group>"; };
-		9E0086F25EAEB46F7FDFD8F719AD4592 /* Pods-neuroTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-neuroTests.debug.xcconfig"; sourceTree = "<group>"; };
-		B20E21DEE80224DA6702F1547ECBF8BA /* Pods-neuroTests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-neuroTests-frameworks.sh"; sourceTree = "<group>"; };
-		B29294C2A617ECE86A40400243D538E6 /* Pods-neuro.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-neuro.debug.xcconfig"; sourceTree = "<group>"; };
-		BD0F41695DD592874BA7EFEAE3ADD237 /* Pods_neuro.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_neuro.framework; path = "Pods-neuro.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		BD866DAE778BFBDEB7B288BA937D0D12 /* Pods-neuroTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-neuroTests.modulemap"; sourceTree = "<group>"; };
-		BF069CBF0EAF5F0A29B650415B3615CC /* Pods-neuroUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-neuroUITests.debug.xcconfig"; sourceTree = "<group>"; };
-		C5080D6BACB00774E08CD6BA5E37D2CA /* Pods-neuroUITests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-neuroUITests-frameworks.sh"; sourceTree = "<group>"; };
+		93DC652DDF7B87FEA6AD124F87914F05 /* Pods-neuro-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-neuro-dummy.m"; sourceTree = "<group>"; };
+		9FDFF1B251A7C47ACF6844FEB9F8C1B7 /* Pods-neuroTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-neuroTests.debug.xcconfig"; sourceTree = "<group>"; };
+		A6746E7F6B7AFC290B6E871D48E4BD44 /* Pods-neuroUITests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-neuroUITests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		C2DE1B8C08C9E247A53F9670B4EB6C07 /* Pods-neuroTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-neuroTests.release.xcconfig"; sourceTree = "<group>"; };
+		C7F358E6D9D226302C50A5F8F6E53305 /* Pods-neuroUITests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-neuroUITests-resources.sh"; sourceTree = "<group>"; };
 		CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		CE73283A9F0C047905143BA3F4A5E11D /* Pods-neuro-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-neuro-dummy.m"; sourceTree = "<group>"; };
-		CF16ACFC1D953606E52B9A08C9F018E9 /* Pods-neuroTests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-neuroTests-resources.sh"; sourceTree = "<group>"; };
-		D2308A7D86C2F3A636D3B17621F2B3AC /* Pods-neuro.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-neuro.release.xcconfig"; sourceTree = "<group>"; };
-		DE094BB447F5DD0ED48FF901F12056CC /* Pods-neuro-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-neuro-acknowledgements.plist"; sourceTree = "<group>"; };
-		DFB4D3D02FD3D864DB39BA6CE1A327A9 /* Pods-neuroUITests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-neuroUITests.modulemap"; sourceTree = "<group>"; };
-		E516F4C24C968F2C0C8013F54D05A3C2 /* Pods-neuroUITests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-neuroUITests-acknowledgements.plist"; sourceTree = "<group>"; };
-		F1EDABEB9DF248C7233E035E9F71792E /* Pods_neuroUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_neuroUITests.framework; path = "Pods-neuroUITests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		F1FD6C65DF7118AEFD7E89BA869DD41A /* Pods-neuro.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-neuro.modulemap"; sourceTree = "<group>"; };
-		F9DDC868CD4BBCD81CE3896639CFA9CA /* Pods-neuroTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-neuroTests-umbrella.h"; sourceTree = "<group>"; };
+		D1938BD68B6B4326196E4D400750CCD3 /* Pods-neuro-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-neuro-frameworks.sh"; sourceTree = "<group>"; };
+		EC1847B6152CC884FC04D17F0E63BA34 /* Pods-neuroTests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-neuroTests-frameworks.sh"; sourceTree = "<group>"; };
+		F7764E66987BBD9A5A2FD6B55C17BE63 /* Pods-neuro-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-neuro-acknowledgements.plist"; sourceTree = "<group>"; };
+		FDD4A284CE58EE44FE0A5807D3F1976F /* Pods-neuro-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-neuro-acknowledgements.markdown"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		6D4A6E74EB816A41C8FA3148B0EF0496 /* Frameworks */ = {
+		322D12BBB140718A1EC43068043C0971 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				83E4DC6749A19822B808E8C2352D04D2 /* Foundation.framework in Frameworks */,
+				CD48B9E072A9B686453C7B0D21BCAB58 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		D3609441ACEBD93056F976409EBB05E5 /* Frameworks */ = {
+		343948785CD3351511367967961E7510 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D1822299D6E24B3D6A9062AB837CB4A1 /* Foundation.framework in Frameworks */,
+				0450832A481FA67FC39AB9A510386EEE /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		E323233964F757E09C3AE8DE3E49C52B /* Frameworks */ = {
+		4EC962765C0A2C33C6213AA3D98BC344 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				82506EE6EA07E7D6EAF11D145E68A44F /* Foundation.framework in Frameworks */,
+				27E6D3257326005958F17F7C1A4D35D3 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		0EB72E065583BCDA24A1CB1B0F856A76 /* Pods-neuroTests */ = {
+		1D6D418F0905282F370A991874FDAA3C /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				2D5F13EF6967945A512C5E9135C7098F /* Info.plist */,
-				BD866DAE778BFBDEB7B288BA937D0D12 /* Pods-neuroTests.modulemap */,
-				192A8ECDA76ECF78FC3CA1F26F1ACD25 /* Pods-neuroTests-acknowledgements.markdown */,
-				40E419DDB1743CD00651D8C36932A9BF /* Pods-neuroTests-acknowledgements.plist */,
-				2277196BB22D23D88DE9B19D48476493 /* Pods-neuroTests-dummy.m */,
-				B20E21DEE80224DA6702F1547ECBF8BA /* Pods-neuroTests-frameworks.sh */,
-				CF16ACFC1D953606E52B9A08C9F018E9 /* Pods-neuroTests-resources.sh */,
-				F9DDC868CD4BBCD81CE3896639CFA9CA /* Pods-neuroTests-umbrella.h */,
-				9E0086F25EAEB46F7FDFD8F719AD4592 /* Pods-neuroTests.debug.xcconfig */,
-				24CFC5906202099AFE8A0520F622B8A4 /* Pods-neuroTests.release.xcconfig */,
+				583899B4C47D966EE67D379DBE9D535B /* libPods-neuro.a */,
+				631F537E88E014425DDD8D9390F77150 /* libPods-neuroTests.a */,
+				3593301B0762E4430CABC77D71FA84A8 /* libPods-neuroUITests.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		33048BBF4DD7EF30C287E98D711E88AD /* Pods-neuroTests */ = {
+			isa = PBXGroup;
+			children = (
+				6ED93247A68732124FA46DB0CB9BB6F3 /* Pods-neuroTests-acknowledgements.markdown */,
+				10C556B436E8CE0E0CA70448BC0190E7 /* Pods-neuroTests-acknowledgements.plist */,
+				7B9968847AE642EF93BB7009CF283C0C /* Pods-neuroTests-dummy.m */,
+				EC1847B6152CC884FC04D17F0E63BA34 /* Pods-neuroTests-frameworks.sh */,
+				088AB2B5B52CCDA40C129103CF786D47 /* Pods-neuroTests-resources.sh */,
+				9FDFF1B251A7C47ACF6844FEB9F8C1B7 /* Pods-neuroTests.debug.xcconfig */,
+				C2DE1B8C08C9E247A53F9670B4EB6C07 /* Pods-neuroTests.release.xcconfig */,
 			);
 			name = "Pods-neuroTests";
 			path = "Target Support Files/Pods-neuroTests";
 			sourceTree = "<group>";
 		};
-		284A89F68B17A1A619D220C8EA335613 /* Products */ = {
+		376BF277B00FAE9106DF9EB72D38C44F /* Targets Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				BD0F41695DD592874BA7EFEAE3ADD237 /* Pods_neuro.framework */,
-				95070C524DED41782BC28584F11A76D6 /* Pods_neuroTests.framework */,
-				F1EDABEB9DF248C7233E035E9F71792E /* Pods_neuroUITests.framework */,
-			);
-			name = Products;
-			sourceTree = "<group>";
-		};
-		70D0DD169942F3AF5EFACE4E853C9546 /* Targets Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				8A994780E81AB680A2DE9B4429990AD7 /* Pods-neuro */,
-				0EB72E065583BCDA24A1CB1B0F856A76 /* Pods-neuroTests */,
-				F0FE8B24AA5E90D7656867164577E4CB /* Pods-neuroUITests */,
+				7953D1C546D7B7FB729D3B35158639F3 /* Pods-neuro */,
+				33048BBF4DD7EF30C287E98D711E88AD /* Pods-neuroTests */,
+				E15EC3C3651E43EA09CAD08E8A60A2C9 /* Pods-neuroUITests */,
 			);
 			name = "Targets Support Files";
 			sourceTree = "<group>";
@@ -130,32 +115,29 @@
 			name = iOS;
 			sourceTree = "<group>";
 		};
+		7953D1C546D7B7FB729D3B35158639F3 /* Pods-neuro */ = {
+			isa = PBXGroup;
+			children = (
+				FDD4A284CE58EE44FE0A5807D3F1976F /* Pods-neuro-acknowledgements.markdown */,
+				F7764E66987BBD9A5A2FD6B55C17BE63 /* Pods-neuro-acknowledgements.plist */,
+				93DC652DDF7B87FEA6AD124F87914F05 /* Pods-neuro-dummy.m */,
+				D1938BD68B6B4326196E4D400750CCD3 /* Pods-neuro-frameworks.sh */,
+				631B75086A28B333E6C4CA9CFD82294D /* Pods-neuro-resources.sh */,
+				4507A3F75653F108DA715B8075B648A0 /* Pods-neuro.debug.xcconfig */,
+				62E8928B015591CF9413049E88E1A6C3 /* Pods-neuro.release.xcconfig */,
+			);
+			name = "Pods-neuro";
+			path = "Target Support Files/Pods-neuro";
+			sourceTree = "<group>";
+		};
 		7DB346D0F39D3F0E887471402A8071AB = {
 			isa = PBXGroup;
 			children = (
 				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
 				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
-				284A89F68B17A1A619D220C8EA335613 /* Products */,
-				70D0DD169942F3AF5EFACE4E853C9546 /* Targets Support Files */,
+				1D6D418F0905282F370A991874FDAA3C /* Products */,
+				376BF277B00FAE9106DF9EB72D38C44F /* Targets Support Files */,
 			);
-			sourceTree = "<group>";
-		};
-		8A994780E81AB680A2DE9B4429990AD7 /* Pods-neuro */ = {
-			isa = PBXGroup;
-			children = (
-				7E841D3F87B944628FEF486EBA886127 /* Info.plist */,
-				F1FD6C65DF7118AEFD7E89BA869DD41A /* Pods-neuro.modulemap */,
-				6FCE45ECDC751D12E01FB4A617871A9C /* Pods-neuro-acknowledgements.markdown */,
-				DE094BB447F5DD0ED48FF901F12056CC /* Pods-neuro-acknowledgements.plist */,
-				CE73283A9F0C047905143BA3F4A5E11D /* Pods-neuro-dummy.m */,
-				3D5C9B02557559053722B610FEC21E4B /* Pods-neuro-frameworks.sh */,
-				16A856FF936E452CF36EFC1E90A1A307 /* Pods-neuro-resources.sh */,
-				952CF4978DEF5E4812F975783654F2E0 /* Pods-neuro-umbrella.h */,
-				B29294C2A617ECE86A40400243D538E6 /* Pods-neuro.debug.xcconfig */,
-				D2308A7D86C2F3A636D3B17621F2B3AC /* Pods-neuro.release.xcconfig */,
-			);
-			name = "Pods-neuro";
-			path = "Target Support Files/Pods-neuro";
 			sourceTree = "<group>";
 		};
 		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
@@ -166,19 +148,16 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		F0FE8B24AA5E90D7656867164577E4CB /* Pods-neuroUITests */ = {
+		E15EC3C3651E43EA09CAD08E8A60A2C9 /* Pods-neuroUITests */ = {
 			isa = PBXGroup;
 			children = (
-				429D6D85122B45961F3690C50F6B0C0B /* Info.plist */,
-				DFB4D3D02FD3D864DB39BA6CE1A327A9 /* Pods-neuroUITests.modulemap */,
-				756BB7A2F9B72B7AE51B8CC88BBF4A8E /* Pods-neuroUITests-acknowledgements.markdown */,
-				E516F4C24C968F2C0C8013F54D05A3C2 /* Pods-neuroUITests-acknowledgements.plist */,
-				2D42878C7997112C1E2243687585B060 /* Pods-neuroUITests-dummy.m */,
-				C5080D6BACB00774E08CD6BA5E37D2CA /* Pods-neuroUITests-frameworks.sh */,
-				277178C26B7F7BE9AF91A7F6EFB3453E /* Pods-neuroUITests-resources.sh */,
-				541330B21E276C17521CF6A5A722E60A /* Pods-neuroUITests-umbrella.h */,
-				BF069CBF0EAF5F0A29B650415B3615CC /* Pods-neuroUITests.debug.xcconfig */,
-				249521EF22C2EBBA99C0E655B3D8A895 /* Pods-neuroUITests.release.xcconfig */,
+				A6746E7F6B7AFC290B6E871D48E4BD44 /* Pods-neuroUITests-acknowledgements.markdown */,
+				3BAB89E8ED3A5D20AA618B1B2FEBD9AF /* Pods-neuroUITests-acknowledgements.plist */,
+				53A51BB720AC023FF2EBA8304F5994E8 /* Pods-neuroUITests-dummy.m */,
+				2998C9827AB2D668F8E9E1FBC63866AE /* Pods-neuroUITests-frameworks.sh */,
+				C7F358E6D9D226302C50A5F8F6E53305 /* Pods-neuroUITests-resources.sh */,
+				0D214199BA6B686026500524CB4E758D /* Pods-neuroUITests.debug.xcconfig */,
+				64A65A406806272B7E2FA5E5855F0F32 /* Pods-neuroUITests.release.xcconfig */,
 			);
 			name = "Pods-neuroUITests";
 			path = "Target Support Files/Pods-neuroUITests";
@@ -186,58 +165,13 @@
 		};
 /* End PBXGroup section */
 
-/* Begin PBXHeadersBuildPhase section */
-		0B1074341A4B7A5011DA2234A15AF37A /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				77014BBFFBD1521F4E416E5DCEFA57FD /* Pods-neuroTests-umbrella.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		258130D64494CF43824B06C60FF02AD8 /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				A2E126BF54DC7FCFBFE5663EBEB5F588 /* Pods-neuro-umbrella.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		392FA89D17BFFBDDDF4BE9C5EB219797 /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				1ED68CD58FB8DC8B26B709D3A628F521 /* Pods-neuroUITests-umbrella.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-/* End PBXHeadersBuildPhase section */
-
 /* Begin PBXNativeTarget section */
-		49600D73A29C91DF8C008A5EE835FA4E /* Pods-neuro */ = {
+		27BB2C8553081791822216E433E56922 /* Pods-neuroUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = E96FA70BD650398F0FDED5CBF3473E50 /* Build configuration list for PBXNativeTarget "Pods-neuro" */;
+			buildConfigurationList = 931E93408F9A414906625BBB1734395F /* Build configuration list for PBXNativeTarget "Pods-neuroUITests" */;
 			buildPhases = (
-				2B2C9B21C5BFA05E0AD26DC48E182099 /* Sources */,
-				6D4A6E74EB816A41C8FA3148B0EF0496 /* Frameworks */,
-				258130D64494CF43824B06C60FF02AD8 /* Headers */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = "Pods-neuro";
-			productName = "Pods-neuro";
-			productReference = BD0F41695DD592874BA7EFEAE3ADD237 /* Pods_neuro.framework */;
-			productType = "com.apple.product-type.framework";
-		};
-		6CAE1B89B6855F3AD3340DF0FC08EEF9 /* Pods-neuroUITests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = F7978AEF61089893A660623EB4C87A55 /* Build configuration list for PBXNativeTarget "Pods-neuroUITests" */;
-			buildPhases = (
-				14665A869150D1B74757050D72443C13 /* Sources */,
-				E323233964F757E09C3AE8DE3E49C52B /* Frameworks */,
-				392FA89D17BFFBDDDF4BE9C5EB219797 /* Headers */,
+				0FF196176E0CB3267EC74D657401D88C /* Sources */,
+				4EC962765C0A2C33C6213AA3D98BC344 /* Frameworks */,
 			);
 			buildRules = (
 			);
@@ -245,16 +179,15 @@
 			);
 			name = "Pods-neuroUITests";
 			productName = "Pods-neuroUITests";
-			productReference = F1EDABEB9DF248C7233E035E9F71792E /* Pods_neuroUITests.framework */;
-			productType = "com.apple.product-type.framework";
+			productReference = 3593301B0762E4430CABC77D71FA84A8 /* libPods-neuroUITests.a */;
+			productType = "com.apple.product-type.library.static";
 		};
-		CABFE0CF9B91D2A99BEFCEB00A692CE5 /* Pods-neuroTests */ = {
+		366CDAD5D21D6594AF9D3BE52D47C8EF /* Pods-neuroTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = B8EC6DFA0F517B57BCB9C7447E7D3DC6 /* Build configuration list for PBXNativeTarget "Pods-neuroTests" */;
+			buildConfigurationList = 7624CC58B0DB2EDD7985B5A76952DABF /* Build configuration list for PBXNativeTarget "Pods-neuroTests" */;
 			buildPhases = (
-				97263BB39FDF542D9D8AF57D0A06AD45 /* Sources */,
-				D3609441ACEBD93056F976409EBB05E5 /* Frameworks */,
-				0B1074341A4B7A5011DA2234A15AF37A /* Headers */,
+				5B18C1405D59AD0FF6EBAC277149EB6E /* Sources */,
+				322D12BBB140718A1EC43068043C0971 /* Frameworks */,
 			);
 			buildRules = (
 			);
@@ -262,8 +195,24 @@
 			);
 			name = "Pods-neuroTests";
 			productName = "Pods-neuroTests";
-			productReference = 95070C524DED41782BC28584F11A76D6 /* Pods_neuroTests.framework */;
-			productType = "com.apple.product-type.framework";
+			productReference = 631F537E88E014425DDD8D9390F77150 /* libPods-neuroTests.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		FE106669942EBC3B26748827B07289EF /* Pods-neuro */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 91B8C85C6948EE560E9173A69E27066F /* Build configuration list for PBXNativeTarget "Pods-neuro" */;
+			buildPhases = (
+				E44EABB5FEFEE9B1FD98E5053E67196F /* Sources */,
+				343948785CD3351511367967961E7510 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-neuro";
+			productName = "Pods-neuro";
+			productReference = 583899B4C47D966EE67D379DBE9D535B /* libPods-neuro.a */;
+			productType = "com.apple.product-type.library.static";
 		};
 /* End PBXNativeTarget section */
 
@@ -282,114 +231,90 @@
 				en,
 			);
 			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
-			productRefGroup = 284A89F68B17A1A619D220C8EA335613 /* Products */;
+			productRefGroup = 1D6D418F0905282F370A991874FDAA3C /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				49600D73A29C91DF8C008A5EE835FA4E /* Pods-neuro */,
-				CABFE0CF9B91D2A99BEFCEB00A692CE5 /* Pods-neuroTests */,
-				6CAE1B89B6855F3AD3340DF0FC08EEF9 /* Pods-neuroUITests */,
+				FE106669942EBC3B26748827B07289EF /* Pods-neuro */,
+				366CDAD5D21D6594AF9D3BE52D47C8EF /* Pods-neuroTests */,
+				27BB2C8553081791822216E433E56922 /* Pods-neuroUITests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXSourcesBuildPhase section */
-		14665A869150D1B74757050D72443C13 /* Sources */ = {
+		0FF196176E0CB3267EC74D657401D88C /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8960B1F47089A8E4F374099EA6D126D1 /* Pods-neuroUITests-dummy.m in Sources */,
+				2A6C7399A5C325B649EC021212A5D7F6 /* Pods-neuroUITests-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		2B2C9B21C5BFA05E0AD26DC48E182099 /* Sources */ = {
+		5B18C1405D59AD0FF6EBAC277149EB6E /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C4B3E1CCBEF604497336706B95C3485F /* Pods-neuro-dummy.m in Sources */,
+				55F329BFC76F1819BDD2920102895353 /* Pods-neuroTests-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		97263BB39FDF542D9D8AF57D0A06AD45 /* Sources */ = {
+		E44EABB5FEFEE9B1FD98E5053E67196F /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				76F597959B79DC539C54F6468AF29FA1 /* Pods-neuroTests-dummy.m in Sources */,
+				C65222F589F1669CBB50D0934BB3D060 /* Pods-neuro-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
-		2C766F9E0632651E82BADAC18B2A0FC7 /* Debug */ = {
+		2BD65ED573495634AE061C21B122FA23 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = B29294C2A617ECE86A40400243D538E6 /* Pods-neuro.debug.xcconfig */;
+			baseConfigurationReference = 4507A3F75653F108DA715B8075B648A0 /* Pods-neuro.debug.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
 				DEBUG_INFORMATION_FORMAT = dwarf;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_NO_COMMON_BLOCKS = YES;
-				INFOPLIST_FILE = "Target Support Files/Pods-neuro/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-neuro/Pods-neuro.modulemap";
 				MTL_ENABLE_DEBUG_INFO = YES;
 				OTHER_LDFLAGS = "";
 				OTHER_LIBTOOLFLAGS = "";
 				PODS_ROOT = "$(SRCROOT)";
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = Pods_neuro;
+				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
 			};
 			name = Debug;
 		};
-		556B9AAD630D16D3CA2CB4D398FE1432 /* Debug */ = {
+		3A204646EB158EE0797A3679E6FBDAB2 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 9E0086F25EAEB46F7FDFD8F719AD4592 /* Pods-neuroTests.debug.xcconfig */;
+			baseConfigurationReference = 62E8928B015591CF9413049E88E1A6C3 /* Pods-neuro.release.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = dwarf;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_NO_COMMON_BLOCKS = YES;
-				INFOPLIST_FILE = "Target Support Files/Pods-neuroTests/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-neuroTests/Pods-neuroTests.modulemap";
-				MTL_ENABLE_DEBUG_INFO = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
 				OTHER_LDFLAGS = "";
 				OTHER_LIBTOOLFLAGS = "";
 				PODS_ROOT = "$(SRCROOT)";
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = Pods_neuroTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
 			};
-			name = Debug;
+			name = Release;
 		};
 		673254EEAF0B5BF4596080C749645884 /* Release */ = {
 			isa = XCBuildConfiguration;
@@ -431,108 +356,72 @@
 			};
 			name = Release;
 		};
-		B97256545679DD9E5F581C2F42D66355 /* Release */ = {
+		682BA6A361150763FD0A667BC4F5F762 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 24CFC5906202099AFE8A0520F622B8A4 /* Pods-neuroTests.release.xcconfig */;
+			baseConfigurationReference = 0D214199BA6B686026500524CB4E758D /* Pods-neuroUITests.debug.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				INFOPLIST_FILE = "Target Support Files/Pods-neuroTests/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-neuroTests/Pods-neuroTests.modulemap";
-				MTL_ENABLE_DEBUG_INFO = NO;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = Pods_neuroTests;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		D08FD898EAED89842FBCB1053E1ADA69 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = BF069CBF0EAF5F0A29B650415B3615CC /* Pods-neuroUITests.debug.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
 				DEBUG_INFORMATION_FORMAT = dwarf;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_NO_COMMON_BLOCKS = YES;
-				INFOPLIST_FILE = "Target Support Files/Pods-neuroUITests/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-neuroUITests/Pods-neuroUITests.modulemap";
 				MTL_ENABLE_DEBUG_INFO = YES;
 				OTHER_LDFLAGS = "";
 				OTHER_LIBTOOLFLAGS = "";
 				PODS_ROOT = "$(SRCROOT)";
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = Pods_neuroUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
 			};
 			name = Debug;
 		};
-		D2C1D8402AD597251EF26609BE87F9B9 /* Release */ = {
+		6C795E3FF3AB883AC27B94FBFD9076EE /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = D2308A7D86C2F3A636D3B17621F2B3AC /* Pods-neuro.release.xcconfig */;
+			baseConfigurationReference = 9FDFF1B251A7C47ACF6844FEB9F8C1B7 /* Pods-neuroTests.debug.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_NO_COMMON_BLOCKS = YES;
-				INFOPLIST_FILE = "Target Support Files/Pods-neuro/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-neuro/Pods-neuro.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		E26941AC1FA82F92003C4EC77A41CF71 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C2DE1B8C08C9E247A53F9670B4EB6C07 /* Pods-neuroTests.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MACH_O_TYPE = staticlib;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				OTHER_LDFLAGS = "";
 				OTHER_LIBTOOLFLAGS = "";
 				PODS_ROOT = "$(SRCROOT)";
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = Pods_neuro;
+				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
 			};
 			name = Release;
 		};
@@ -580,38 +469,26 @@
 			};
 			name = Debug;
 		};
-		FA31B7AB829C1AC5E780A811788E3413 /* Release */ = {
+		FB429DCBB5CB7F5AA7DA665721B4B033 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 249521EF22C2EBBA99C0E655B3D8A895 /* Pods-neuroUITests.release.xcconfig */;
+			baseConfigurationReference = 64A65A406806272B7E2FA5E5855F0F32 /* Pods-neuroUITests.release.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_NO_COMMON_BLOCKS = YES;
-				INFOPLIST_FILE = "Target Support Files/Pods-neuroUITests/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-neuroUITests/Pods-neuroUITests.modulemap";
 				MTL_ENABLE_DEBUG_INFO = NO;
 				OTHER_LDFLAGS = "";
 				OTHER_LIBTOOLFLAGS = "";
 				PODS_ROOT = "$(SRCROOT)";
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = Pods_neuroUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
 			};
 			name = Release;
 		};
@@ -627,29 +504,29 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		B8EC6DFA0F517B57BCB9C7447E7D3DC6 /* Build configuration list for PBXNativeTarget "Pods-neuroTests" */ = {
+		7624CC58B0DB2EDD7985B5A76952DABF /* Build configuration list for PBXNativeTarget "Pods-neuroTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				556B9AAD630D16D3CA2CB4D398FE1432 /* Debug */,
-				B97256545679DD9E5F581C2F42D66355 /* Release */,
+				6C795E3FF3AB883AC27B94FBFD9076EE /* Debug */,
+				E26941AC1FA82F92003C4EC77A41CF71 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		E96FA70BD650398F0FDED5CBF3473E50 /* Build configuration list for PBXNativeTarget "Pods-neuro" */ = {
+		91B8C85C6948EE560E9173A69E27066F /* Build configuration list for PBXNativeTarget "Pods-neuro" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				2C766F9E0632651E82BADAC18B2A0FC7 /* Debug */,
-				D2C1D8402AD597251EF26609BE87F9B9 /* Release */,
+				2BD65ED573495634AE061C21B122FA23 /* Debug */,
+				3A204646EB158EE0797A3679E6FBDAB2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		F7978AEF61089893A660623EB4C87A55 /* Build configuration list for PBXNativeTarget "Pods-neuroUITests" */ = {
+		931E93408F9A414906625BBB1734395F /* Build configuration list for PBXNativeTarget "Pods-neuroUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				D08FD898EAED89842FBCB1053E1ADA69 /* Debug */,
-				FA31B7AB829C1AC5E780A811788E3413 /* Release */,
+				682BA6A361150763FD0A667BC4F5F762 /* Debug */,
+				FB429DCBB5CB7F5AA7DA665721B4B033 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

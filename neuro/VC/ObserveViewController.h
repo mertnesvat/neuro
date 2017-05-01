@@ -7,7 +7,9 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "BaseVC.h"
 
-@interface ObserveViewController : UIViewController
+@interface ObserveViewController : BaseVC <IXNMuseConnectionListener, IXNMuseDataListener, IXNMuseListener, IXNLogListener>
 
+@property (nonatomic, strong) NSDictionary *selectedOptions;
 @end

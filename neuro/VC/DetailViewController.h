@@ -7,7 +7,10 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "BaseVC.h"
 
-@interface DetailViewController : UIViewController 
+@interface DetailViewController : BaseVC
+@property NSArray *options;
+@property NSMutableDictionary *selectedOptions;
 
 @end

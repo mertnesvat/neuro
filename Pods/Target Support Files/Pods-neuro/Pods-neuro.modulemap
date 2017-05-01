@@ -1,6 +1,0 @@
-framework module Pods_neuro {
-  umbrella header "Pods-neuro-umbrella.h"
-
-  export *
-  module * { export * }
-}

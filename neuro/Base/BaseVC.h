@@ -7,7 +7,13 @@
 //
 
 #import <UIKit/UIKit.h>
+#import <CoreBluetooth/CoreBluetooth.h>
+#import <Muse/Muse.h>
+#import <Charts/Charts.h>
+#import "Singleton.h"
 
 @interface BaseVC : UIViewController
+@property IXNMuseManagerIos * manager;
+@property (weak, nonatomic) IXNMuse * muse;
 
 @end

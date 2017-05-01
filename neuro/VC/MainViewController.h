@@ -7,9 +7,9 @@
 //
 
 #import <UIKit/UIKit.h>
-#import <Muse/Muse.h>
+#import "BaseVC.h"
 
-@interface MainViewController : UIViewController < IXNMuseConnectionListener, IXNMuseDataListener, IXNMuseListener, IXNLogListener>
+@interface MainViewController : BaseVC < IXNMuseConnectionListener, IXNMuseDataListener, IXNMuseListener, IXNLogListener>
 
 @property (nonatomic, strong) IBOutlet UITextView* logView;
 
