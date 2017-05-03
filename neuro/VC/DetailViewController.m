@@ -56,6 +56,7 @@
     
     self.navigationItem.rightBarButtonItem = nextButton;
     
+    
     self.selectedOptions = @{}.mutableCopy;
 }
 

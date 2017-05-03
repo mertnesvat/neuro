@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		06A84164E52EBE2D9228F4CF /* libPods-neuroUITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 1600298613AF782E567D7332 /* libPods-neuroUITests.a */; };
+		43F0E1D6207F96450C5B5719 /* Pods_neuroTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 86AD17DE84EDFDA412BF24C5 /* Pods_neuroTests.framework */; };
 		603D437F1E9804F7004D9666 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 603D437E1E9804F7004D9666 /* main.m */; };
 		603D43821E9804F7004D9666 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 603D43811E9804F7004D9666 /* AppDelegate.m */; };
 		603D43881E9804F8004D9666 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 603D43861E9804F8004D9666 /* Main.storyboard */; };
@@ -23,13 +23,12 @@
 		6073236D1EB68C5A00D4BBAF /* DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6073236C1EB68C5A00D4BBAF /* DetailViewController.m */; };
 		607323701EB68D7A00D4BBAF /* Singleton.m in Sources */ = {isa = PBXBuildFile; fileRef = 6073236F1EB68D7A00D4BBAF /* Singleton.m */; };
 		609AA5271EB79CB800B2B449 /* Charts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 609AA5261EB79CB800B2B449 /* Charts.framework */; };
-		609AA5281EB79CBE00B2B449 /* Charts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 609AA5261EB79CB800B2B449 /* Charts.framework */; };
 		609AA5291EB79CBE00B2B449 /* Charts.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 609AA5261EB79CB800B2B449 /* Charts.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		609AA52D1EB7A52200B2B449 /* ObserveViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 609AA52C1EB7A52200B2B449 /* ObserveViewController.m */; };
 		609AA5311EB7A5B300B2B449 /* BaseVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 609AA5301EB7A5B300B2B449 /* BaseVC.m */; };
 		60B96BA01EB54F0E00D9BED5 /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 60B96B9F1EB54F0E00D9BED5 /* MainViewController.m */; };
-		B6635B4700C048682C445199 /* libPods-neuro.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 97B64666F3B287C4EADCA262 /* libPods-neuro.a */; };
-		C4BA470EFA1F017169EF23F3 /* libPods-neuroTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 46885D1915EEB00B5710E4E4 /* libPods-neuroTests.a */; };
+		91887A174CDF43C1D8FFCDFB /* Pods_neuro.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 21F469F99874732F7F48939E /* Pods_neuro.framework */; };
+		BC1180C631C344778C36B474 /* Pods_neuroUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 11E786A1D783FC159FC6A697 /* Pods_neuroUITests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -64,11 +63,11 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		1600298613AF782E567D7332 /* libPods-neuroUITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-neuroUITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		11E786A1D783FC159FC6A697 /* Pods_neuroUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_neuroUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		21F469F99874732F7F48939E /* Pods_neuro.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_neuro.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		22988033FA652259BD65F3D4 /* Pods-neuroUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-neuroUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-neuroUITests/Pods-neuroUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		420478CE3F3E20D22637DBEC /* Pods-neuroTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-neuroTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-neuroTests/Pods-neuroTests.debug.xcconfig"; sourceTree = "<group>"; };
 		42E45A79627DAB3C28D4859C /* Pods-neuroTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-neuroTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-neuroTests/Pods-neuroTests.release.xcconfig"; sourceTree = "<group>"; };
-		46885D1915EEB00B5710E4E4 /* libPods-neuroTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-neuroTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		4AB012107F4EE16DFDD7C3D9 /* Pods-neuro.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-neuro.debug.xcconfig"; path = "Pods/Target Support Files/Pods-neuro/Pods-neuro.debug.xcconfig"; sourceTree = "<group>"; };
 		535660F61D8FC7BD43F36712 /* Pods-neuroUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-neuroUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-neuroUITests/Pods-neuroUITests.release.xcconfig"; sourceTree = "<group>"; };
 		603D437A1E9804F7004D9666 /* neuro.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = neuro.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -104,7 +103,7 @@
 		60B96B9E1EB54F0E00D9BED5 /* MainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MainViewController.h; path = VC/MainViewController.h; sourceTree = "<group>"; };
 		60B96B9F1EB54F0E00D9BED5 /* MainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MainViewController.m; path = VC/MainViewController.m; sourceTree = "<group>"; };
 		7AA7739F3A9B81A91C66DC56 /* Pods-neuro.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-neuro.release.xcconfig"; path = "Pods/Target Support Files/Pods-neuro/Pods-neuro.release.xcconfig"; sourceTree = "<group>"; };
-		97B64666F3B287C4EADCA262 /* libPods-neuro.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-neuro.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		86AD17DE84EDFDA412BF24C5 /* Pods_neuroTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_neuroTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -115,9 +114,8 @@
 				603D43B61E98063A004D9666 /* libc++.tbd in Frameworks */,
 				603D43B41E98062D004D9666 /* CoreBluetooth.framework in Frameworks */,
 				609AA5271EB79CB800B2B449 /* Charts.framework in Frameworks */,
-				609AA5281EB79CBE00B2B449 /* Charts.framework in Frameworks */,
 				603D43B11E980604004D9666 /* Muse.framework in Frameworks */,
-				B6635B4700C048682C445199 /* libPods-neuro.a in Frameworks */,
+				91887A174CDF43C1D8FFCDFB /* Pods_neuro.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -125,7 +123,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C4BA470EFA1F017169EF23F3 /* libPods-neuroTests.a in Frameworks */,
+				43F0E1D6207F96450C5B5719 /* Pods_neuroTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -133,7 +131,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				06A84164E52EBE2D9228F4CF /* libPods-neuroUITests.a in Frameworks */,
+				BC1180C631C344778C36B474 /* Pods_neuroUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -230,9 +228,9 @@
 				603D43B51E98063A004D9666 /* libc++.tbd */,
 				609AA5261EB79CB800B2B449 /* Charts.framework */,
 				603D43B31E98062D004D9666 /* CoreBluetooth.framework */,
-				97B64666F3B287C4EADCA262 /* libPods-neuro.a */,
-				46885D1915EEB00B5710E4E4 /* libPods-neuroTests.a */,
-				1600298613AF782E567D7332 /* libPods-neuroUITests.a */,
+				21F469F99874732F7F48939E /* Pods_neuro.framework */,
+				86AD17DE84EDFDA412BF24C5 /* Pods_neuroTests.framework */,
+				11E786A1D783FC159FC6A697 /* Pods_neuroUITests.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";

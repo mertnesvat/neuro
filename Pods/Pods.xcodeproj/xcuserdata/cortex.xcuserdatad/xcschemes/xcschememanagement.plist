@@ -4,6 +4,11 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
+		<key>Charts.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
 		<key>Pods-neuro.xcscheme</key>
 		<dict>
 			<key>isShown</key>
@@ -22,17 +27,22 @@
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
-		<key>27BB2C8553081791822216E433E56922</key>
+		<key>61237C8A7A86C372F92F74CF1A111EEC</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>366CDAD5D21D6594AF9D3BE52D47C8EF</key>
+		<key>6CAE1B89B6855F3AD3340DF0FC08EEF9</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>FE106669942EBC3B26748827B07289EF</key>
+		<key>CABFE0CF9B91D2A99BEFCEB00A692CE5</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>F307B842FF76B2DE6C55DB67C0885325</key>
 		<dict>
 			<key>primary</key>
 			<true/>

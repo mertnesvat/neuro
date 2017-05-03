@@ -12,4 +12,5 @@
 @interface ObserveViewController : BaseVC <IXNMuseConnectionListener, IXNMuseDataListener, IXNMuseListener, IXNLogListener>
 
 @property (nonatomic, strong) NSDictionary *selectedOptions;
+@property (nonatomic, strong) NSMutableDictionary *optionsDataset;
 @end

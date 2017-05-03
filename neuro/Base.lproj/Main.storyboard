@@ -109,12 +109,27 @@
                     <view key="view" contentMode="scaleToFill" id="Lfd-2J-OOS">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="46Z-1k-eHI" customClass="LineChartView" customModule="Charts">
+                                <rect key="frame" x="0.0" y="64" width="375" height="603"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                            </view>
+                        </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="Fou-KK-odW" firstAttribute="top" secondItem="46Z-1k-eHI" secondAttribute="bottom" id="APy-Gz-Nlf"/>
+                            <constraint firstItem="46Z-1k-eHI" firstAttribute="top" secondItem="Kf7-aL-vaS" secondAttribute="bottom" id="lee-Bf-xag"/>
+                            <constraint firstItem="46Z-1k-eHI" firstAttribute="leading" secondItem="Lfd-2J-OOS" secondAttribute="leadingMargin" constant="-16" id="tG9-eb-Rcb"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="46Z-1k-eHI" secondAttribute="trailing" constant="-16" id="vka-IJ-pLL"/>
+                        </constraints>
                     </view>
+                    <connections>
+                        <outlet property="chartView" destination="46Z-1k-eHI" id="ai3-XU-3tu"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="aKP-8A-P6y" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2882" y="43"/>
+            <point key="canvasLocation" x="2786" y="43"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="p0X-WE-ex3">
