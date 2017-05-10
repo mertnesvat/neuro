@@ -15,5 +15,5 @@
 @interface BaseVC : UIViewController
 @property IXNMuseManagerIos * manager;
 @property (weak, nonatomic) IXNMuse * muse;
-
+- (void)log:(NSString *)fmt, ... ;
 @end

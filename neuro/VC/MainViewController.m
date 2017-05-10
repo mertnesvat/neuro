@@ -24,7 +24,7 @@
     
     [self setMuseManager];
     
-    [self.manager startListening];
+//    [self.manager startListening];
     
     [Singleton shared].manager = self.manager;
     
@@ -105,18 +105,6 @@
     self.lastBlink = packet.blink;
 }
 
-- (void)log:(NSString *)fmt, ... {
-    va_list args;
-    va_start(args, fmt);
-    NSString *line = [[NSString alloc] initWithFormat:fmt arguments:args];
-    va_end(args);
-    NSLog(@"%@", line);
-    [self.logLines insertObject:line atIndex:0];
-    
-    dispatch_async(dispatch_get_main_queue(), ^ {
-        [self.logView setText:[self.logLines componentsJoinedByString:@"\n"]];
-    });
-}
 - (float)getRandomFloat {
     float i1 = (float)(arc4random() % 1000000) / 100 ;
     return i1;

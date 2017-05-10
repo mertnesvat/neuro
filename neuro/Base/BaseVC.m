@@ -7,7 +7,7 @@
 //
 
 #import "BaseVC.h"
-
+#import "Singleton.h"
 @interface BaseVC ()
 
 @end
@@ -21,6 +21,9 @@
     if (!self.manager) {
         self.manager = [IXNMuseManagerIos sharedManager];
     }
+    if ([Singleton shared].muse) {
+        self.muse = [Singleton shared].muse;
+    }
     
 }
 
@@ -28,6 +31,15 @@
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
 }
+- (void)log:(NSString *)fmt, ... {
+    va_list args;
+    va_start(args, fmt);
+    NSString *line = [[NSString alloc] initWithFormat:fmt arguments:args];
+    va_end(args);
+    NSLog(@"%@", line);
+}
+
+
 
 /*
 #pragma mark - Navigation

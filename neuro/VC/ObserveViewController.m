@@ -11,34 +11,48 @@
 
 @interface ObserveViewController () <CBCentralManagerDelegate, ChartViewDelegate>
 @property (nonatomic, strong) IBOutlet LineChartView *chartView;
-
+@property int timeCounter;
 @end
 
 @implementation ObserveViewController
+NSDictionary *valuesDic;
 
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view.
     self.optionsDataset = @{}.mutableCopy;
+    valuesDic = @{}.mutableCopy;
+    _timeCounter = 0;
     
+    self.selectedOptions = @{ @"8" : @"IXNMuseDataPacketTypeAlphaAbsolute"};
     
-    [self updateChartData];
+    [self setMuseManager];
+    self.muse = [Singleton shared].muse;
+ //   [self setData];
     [self setChartDetails];
     
-//    [self addAllDataSets];
-    
-    [NSTimer scheduledTimerWithTimeInterval:0.2 target:self selector:@selector(addNewData) userInfo:nil repeats:YES];
+    [self.manager startListening];
+
+//    [NSTimer scheduledTimerWithTimeInterval:0.2 target:self selector:@selector(addNewData) userInfo:nil repeats:YES];
 
     
 }
 
-
-- (void)updateChartData
-{
+- (void)setMuseManager{
+    self.manager = [IXNMuseManagerIos sharedManager];
+    [self.manager setMuseListener:self];
     
-    [self setData];
+    [[IXNLogManager instance] setLogListener:self];
+    
 }
+- (UIColor *)randomColor{
+    double randomVal1 = (double) (arc4random_uniform(200)) + 50;
+    double randomVal2 = (double) (arc4random_uniform(200)) + 50;
+    double randomVal3 = (double) (arc4random_uniform(200)) + 50;
+    UIColor *color = [UIColor colorWithRed:randomVal1/255.f green:randomVal2/255.f blue:randomVal3/255.f alpha:1.f];
 
+    return color;
+}
 - (void)setData
 {
     
@@ -62,22 +76,14 @@
         }
         
         LineChartDataSet *set1 = nil;
-        
         set1 = [[LineChartDataSet alloc] initWithValues:yVals label:self.selectedOptions[key]];
         set1.axisDependency = AxisDependencyLeft;
-        double randomVal1 = (double) (arc4random_uniform(200)) + 50;
-        double randomVal2 = (double) (arc4random_uniform(200)) + 50;
-        double randomVal3 = (double) (arc4random_uniform(200)) + 50;
-        [set1 setColor:[UIColor colorWithRed:randomVal1/255.f green:randomVal2/255.f blue:randomVal3/255.f alpha:1.f]];
+        [set1 setColor:[self randomColor]];
         [set1 setCircleColor:UIColor.whiteColor];
         set1.lineWidth = 2.0;
         set1.circleRadius = 3.0;
         set1.fillAlpha = 65/255.0;
-        
-        double random1 = (double) (arc4random_uniform(200)) + 50;
-        double random2 = (double) (arc4random_uniform(200)) + 50;
-        double random3 = (double) (arc4random_uniform(200)) + 50;
-        set1.fillColor = [UIColor colorWithRed:random1/255.f green:random2/255.f blue:random3/255.f alpha:1.f];
+        set1.fillColor = [self randomColor];
         set1.highlightColor = [UIColor colorWithRed:244/255.f green:117/255.f blue:117/255.f alpha:1.f];
         set1.drawCircleHoleEnabled = NO;
         
@@ -88,6 +94,20 @@
     [data setValueFont:[UIFont systemFontOfSize:9.f]];
     
     _chartView.data = data;
+
+}
+
+- (void)LineChartDataSetAddAttributes:(LineChartDataSet *)set1{
+
+    set1.axisDependency = AxisDependencyLeft;
+    [set1 setColor:[self randomColor]];
+    [set1 setCircleColor:UIColor.whiteColor];
+    set1.lineWidth = 2.0;
+    set1.circleRadius = 3.0;
+    set1.fillAlpha = 65/255.0;
+    set1.fillColor = [self randomColor];
+    set1.highlightColor = [UIColor colorWithRed:244/255.f green:117/255.f blue:117/255.f alpha:1.f];
+    set1.drawCircleHoleEnabled = NO;
 
 }
 
@@ -130,15 +150,14 @@
     rightAxis.drawGridLinesEnabled = NO;
     rightAxis.granularityEnabled = NO;
     
-    [NSTimer scheduledTimerWithTimeInterval:0.1 target:self selector:@selector(addNewData) userInfo:nil repeats:YES];
+//    [NSTimer scheduledTimerWithTimeInterval:0.1 target:self selector:@selector(addNewData) userInfo:nil repeats:YES];
 
 }
 
-- (void)addNewData{
+- (void)addNewData:(double)randomVal{
     
     for (LineChartDataSet *set in self.chartView.data.dataSets){
         NSMutableArray *values = set.values.mutableCopy;
-        double randomVal = (double) (arc4random_uniform(100)) + 50;
         ChartDataEntry *c1 = [values lastObject];
         [values addObject:[[ChartDataEntry alloc] initWithX:c1.x+1 y:randomVal]];
         
@@ -213,33 +232,79 @@
 
 #pragma mark - Connection Listener
 
--(void)receiveMuseConnectionPacket:(IXNMuseConnectionPacket *)packet muse:(IXNMuse *)muse{
-    
+- (void)receiveMuseConnectionPacket:(IXNMuseConnectionPacket *)packet
+                               muse:(IXNMuse *)muse {
+    NSString *state;
+    switch (packet.currentConnectionState) {
+        case IXNConnectionStateDisconnected:
+            state = @"disconnected";
+            break;
+        case IXNConnectionStateConnected:
+            state = @"connected";
+            break;
+        case IXNConnectionStateConnecting:
+            state = @"connecting";
+            break;
+        case IXNConnectionStateNeedsUpdate: state = @"needs update"; break;
+        case IXNConnectionStateUnknown: state = @"unknown"; break;
+        default: NSAssert(NO, @"impossible connection state received");
+    }
 }
-
 #pragma mark - Data Listener
 
 -(void)receiveMuseDataPacket:(IXNMuseDataPacket *)packet muse:(IXNMuse *)muse{
-    if (packet.packetType == IXNMuseDataPacketTypeAlphaAbsolute ||
-        packet.packetType == IXNMuseDataPacketTypeEeg) {
-        //        [self log:@"%5.2f %5.2f %5.2f %5.2f",
-        //         [packet.values[IXNEegEEG1] doubleValue],
-        //         [packet.values[IXNEegEEG2] doubleValue],
-        //         [packet.values[IXNEegEEG3] doubleValue],
-        //         [packet.values[IXNEegEEG4] doubleValue]];
-        if (packet.packetType == IXNMuseDataPacketTypeAlphaAbsolute) {
-//            [self.values addObject:@([packet.values[2] doubleValue] * 100)];
-//            [self.values2 addObject:@([packet.values[1] doubleValue] * 100)];
-//            [self.values removeObjectsInRange:NSMakeRange(0, 1)];
-//            [self.values2 removeObjectsInRange:NSMakeRange(0, 1)];
+    
+    [self addNewDataFromValues:packet.values withName:@"hello"];
+}
+
+-(void)addNewDataFromValues:(NSArray *)values withName:(NSString *)title{
+    _timeCounter++;
+    int sensorNumber = 0;
+    
+    if (_chartView.data.dataSets) {
+        for (LineChartDataSet *set in _chartView.data.dataSets) {
+            NSArray *comp = [set.label componentsSeparatedByString:@"-"];
+            NSMutableArray *oldValues = set.values.mutableCopy;
             
-            //            [self.myGraph reloadGraph];
-            //            [self.myGraph2 reloadGraph];
-        }       
+            NSNumberFormatter *f = [[NSNumberFormatter alloc] init];
+            f.numberStyle = NSNumberFormatterDecimalStyle;
+            NSNumber *row = [f numberFromString:comp[1]];
+            
+            NSNumber *val = values[row.intValue];
+            double v = [val doubleValue];
+            [oldValues addObject:[[ChartDataEntry alloc] initWithX:_timeCounter y:v*100]];
+            
+            if ([oldValues count] > 20) {
+                [oldValues removeObjectAtIndex:0];
+            }
+            
+            set.values = oldValues;
+        }
         
+        [_chartView.data notifyDataChanged];
+        [_chartView notifyDataSetChanged];
+
+    }else{
+        NSMutableArray *dataSetArr = @[].mutableCopy;
+        for (NSNumber * val in values) {
+            double v = [val doubleValue];
+            NSString *combined = [NSString stringWithFormat:@"%@-%d",title,sensorNumber];
+            LineChartDataSet *chartDataSet = [[LineChartDataSet alloc] initWithValues:@[[[ChartDataEntry alloc] initWithX:_timeCounter y:v]] label:combined];
+            [self LineChartDataSetAddAttributes:chartDataSet];
+            sensorNumber++;
+            [dataSetArr addObject:chartDataSet];
+        }
+        LineChartData *data = [[LineChartData alloc] initWithDataSets:dataSetArr];
+        _chartView.data = data;
+        
+        [_chartView.data notifyDataChanged];
+        [_chartView notifyDataSetChanged];
+
     }
     
+    // ChartDataEntry < LineChartDataSet < LineChartData < _chartView.data
 }
+
 -(void)receiveMuseArtifactPacket:(IXNMuseArtifactPacket *)packet muse:(IXNMuse *)muse{
 
 }
@@ -247,16 +312,25 @@
 #pragma mark - Log
 
 -(void)receiveLog:(IXNLogPacket *)log{
-    
+    [self log:@"%@: %llu raw:%d %@", log.tag, log.timestamp, log.raw, log.message];
 }
 
 #pragma mark - muse Listener
-
--(void)museListChanged{
-
+- (void)museListChanged{
+    //connect to muse
+    NSArray * muses = [self.manager getMuses];
+    if ([muses count] > 0) {
+        IXNMuse * muse = [muses firstObject];
+        self.muse = muse;
+        [Singleton shared].muse = self.muse;
+        
+        [self connect];
+        
+    }
 }
 
 #pragma mark - Bluetooth
+
 
 - (void)centralManagerDidUpdateState:(CBCentralManager *)central {
     
@@ -267,16 +341,19 @@
 
     for (NSString *str in [self.selectedOptions allKeys]) {
         long num = str.longLongValue;
+        
         [self.muse registerDataListener:self
-                                   type:num];
+                                   type:IXNMuseDataPacketTypeAlphaAbsolute];
     }
+    [self.muse registerDataListener:self
+                               type:IXNMuseDataPacketTypeAlphaAbsolute];
+
     /*
      [self.muse registerDataListener:self
      type:IXNMuseDataPacketTypeEeg];
      */
     [self.muse runAsynchronously];
 }
-
 
 
 
