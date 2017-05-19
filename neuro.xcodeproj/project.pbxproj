@@ -151,6 +151,13 @@
 			name = Pods;
 			sourceTree = "<group>";
 		};
+		602083C31ECF3F930091948C /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Models;
+			sourceTree = "<group>";
+		};
 		603D43711E9804F7004D9666 = {
 			isa = PBXGroup;
 			children = (
@@ -186,6 +193,7 @@
 				603D43B81E9806AA004D9666 /* SimpleController.m */,
 				6073236E1EB68D7A00D4BBAF /* Singleton.h */,
 				6073236F1EB68D7A00D4BBAF /* Singleton.m */,
+				602083C31ECF3F930091948C /* Models */,
 				609AA52E1EB7A59300B2B449 /* Base */,
 				60B96BA11EB54F1400D9BED5 /* Scenes */,
 				603D43B91E9806AA004D9666 /* SimpleController.xib */,

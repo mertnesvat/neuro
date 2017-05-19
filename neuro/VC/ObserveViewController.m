@@ -254,7 +254,7 @@ NSDictionary *valuesDic;
 
 -(void)receiveMuseDataPacket:(IXNMuseDataPacket *)packet muse:(IXNMuse *)muse{
     
-    [self addNewDataFromValues:packet.values withName:@"hello"];
+    [self addNewDataFromValues:packet.values withName:_selectedDataSet];
 }
 
 -(void)addNewDataFromValues:(NSArray *)values withName:(NSString *)title{
@@ -343,11 +343,8 @@ NSDictionary *valuesDic;
         long num = str.longLongValue;
         
         [self.muse registerDataListener:self
-                                   type:IXNMuseDataPacketTypeAlphaAbsolute];
+                                   type:num];
     }
-    [self.muse registerDataListener:self
-                               type:IXNMuseDataPacketTypeAlphaAbsolute];
-
     /*
      [self.muse registerDataListener:self
      type:IXNMuseDataPacketTypeEeg];

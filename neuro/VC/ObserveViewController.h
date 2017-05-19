@@ -13,4 +13,6 @@
 
 @property (nonatomic, strong) NSDictionary *selectedOptions;
 @property (nonatomic, strong) NSMutableDictionary *optionsDataset;
+@property (nonatomic, strong) NSString *selectedDataSet;
+
 @end

@@ -14,7 +14,7 @@
 @end
 
 @implementation DetailViewController
-
+NSString *strOption = @"";
 - (void)fetchOptions{
     self.options = @[@"IXNMuseDataPacketTypeAccelerometer",
                      @"IXNMuseDataPacketTypeGyro",
@@ -88,6 +88,7 @@
 -(void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath{
     
     UITableViewCell *cell = [tableView cellForRowAtIndexPath:indexPath];
+    strOption = self.options[indexPath.row];
     NSString *packet = self.options[indexPath.row];
     NSString *number = [NSString stringWithFormat:@"%ld",(long)indexPath.row];
 
@@ -113,6 +114,7 @@
     
     ObserveViewController *obs = [segue destinationViewController];
     obs.selectedOptions = self.selectedOptions.copy;
+    obs.selectedDataSet = strOption;
     
 }
 
