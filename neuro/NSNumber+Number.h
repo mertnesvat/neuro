@@ -9,5 +9,5 @@
 #import <Foundation/Foundation.h>
 
 @interface NSNumber (Number)
-
+- (NSNumber *)randomNumber;
 @end

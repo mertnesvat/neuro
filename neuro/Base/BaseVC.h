@@ -10,6 +10,11 @@
 #import <CoreBluetooth/CoreBluetooth.h>
 #import <Muse/Muse.h>
 #import "Singleton.h"
+#import "UIColor+Color.h"
+#import "NSNumber+Number.h"
+#import "NSString+Muse.h"
+#import "MMultipleLinesDataPacket.h"
+
 @import Charts;
 
 @interface BaseVC : UIViewController

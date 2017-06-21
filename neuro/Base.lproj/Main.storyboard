@@ -110,26 +110,40 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="46Z-1k-eHI" customClass="LineChartView" customModule="Charts">
-                                <rect key="frame" x="0.0" y="64" width="375" height="603"/>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="300" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="DwG-X4-b8C">
+                                <rect key="frame" x="-0.5" y="-0.5" width="375" height="667"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                            </view>
+                                <prototypes>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="graphCell" rowHeight="300" id="jyn-A9-dhs">
+                                        <rect key="frame" x="0.0" y="28" width="375" height="300"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="jyn-A9-dhs" id="bb5-xk-lp5">
+                                            <rect key="frame" x="0.0" y="0.0" width="375" height="299.5"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                        </tableViewCellContentView>
+                                    </tableViewCell>
+                                </prototypes>
+                                <connections>
+                                    <outlet property="dataSource" destination="c3o-QK-z6r" id="TTi-rR-6ky"/>
+                                    <outlet property="delegate" destination="c3o-QK-z6r" id="AqC-vg-WCr"/>
+                                </connections>
+                            </tableView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
-                            <constraint firstItem="Fou-KK-odW" firstAttribute="top" secondItem="46Z-1k-eHI" secondAttribute="bottom" id="APy-Gz-Nlf"/>
-                            <constraint firstItem="46Z-1k-eHI" firstAttribute="top" secondItem="Kf7-aL-vaS" secondAttribute="bottom" id="lee-Bf-xag"/>
-                            <constraint firstItem="46Z-1k-eHI" firstAttribute="leading" secondItem="Lfd-2J-OOS" secondAttribute="leadingMargin" constant="-16" id="tG9-eb-Rcb"/>
-                            <constraint firstAttribute="trailingMargin" secondItem="46Z-1k-eHI" secondAttribute="trailing" constant="-16" id="vka-IJ-pLL"/>
+                            <constraint firstItem="DwG-X4-b8C" firstAttribute="centerY" secondItem="Lfd-2J-OOS" secondAttribute="centerY" id="N0y-ux-Qee"/>
+                            <constraint firstItem="DwG-X4-b8C" firstAttribute="height" secondItem="Lfd-2J-OOS" secondAttribute="height" id="azG-Rl-1aK"/>
+                            <constraint firstItem="DwG-X4-b8C" firstAttribute="width" secondItem="Lfd-2J-OOS" secondAttribute="width" id="mLf-gF-tGs"/>
+                            <constraint firstItem="DwG-X4-b8C" firstAttribute="centerX" secondItem="Lfd-2J-OOS" secondAttribute="centerX" id="xIg-z0-goY"/>
                         </constraints>
                     </view>
                     <connections>
-                        <outlet property="chartView" destination="46Z-1k-eHI" id="ai3-XU-3tu"/>
+                        <outlet property="tableView" destination="DwG-X4-b8C" id="t0e-ZU-oGK"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="aKP-8A-P6y" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2786" y="43"/>
+            <point key="canvasLocation" x="2784.8000000000002" y="42.728635682158924"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="p0X-WE-ex3">

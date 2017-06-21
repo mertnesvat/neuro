@@ -10,4 +10,7 @@
 
 @implementation BaseModel
 
+-(BOOL)writeToFile{
+    return YES; // implemented soon!
+}
 @end

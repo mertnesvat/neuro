@@ -7,7 +7,16 @@
 //
 
 #import <Foundation/Foundation.h>
+#import <Muse/Muse.h>
+#import "BaseModel.h"
+@import Charts;
 
-@interface MChartDataPacket : NSObject
+// Composition Model which includes both muse packet and chart packet
 
+@interface MChartDataPacket : BaseModel
+
+@property IXNMuseDataPacket *packetMuse;
+@property NSArray *packetChartArray; // this is only one fragment x , y coordiante for all values
+
+- (MChartDataPacket *)initWithIXNMuseDataPacket:(IXNMuseDataPacket *)packet;
 @end

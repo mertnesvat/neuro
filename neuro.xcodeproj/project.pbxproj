@@ -8,6 +8,9 @@
 
 /* Begin PBXBuildFile section */
 		43F0E1D6207F96450C5B5719 /* Pods_neuroTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 86AD17DE84EDFDA412BF24C5 /* Pods_neuroTests.framework */; };
+		6028B6D01ED19C8900EF68F5 /* GraphCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 6028B6CE1ED19C8900EF68F5 /* GraphCell.m */; };
+		6028B6D11ED19C8900EF68F5 /* GraphCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6028B6CF1ED19C8900EF68F5 /* GraphCell.xib */; };
+		6028B6D41ED1A61400EF68F5 /* NSString+Muse.m in Sources */ = {isa = PBXBuildFile; fileRef = 6028B6D31ED1A61400EF68F5 /* NSString+Muse.m */; };
 		603D437F1E9804F7004D9666 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 603D437E1E9804F7004D9666 /* main.m */; };
 		603D43821E9804F7004D9666 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 603D43811E9804F7004D9666 /* AppDelegate.m */; };
 		603D43881E9804F8004D9666 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 603D43861E9804F8004D9666 /* Main.storyboard */; };
@@ -26,6 +29,12 @@
 		609AA5291EB79CBE00B2B449 /* Charts.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 609AA5261EB79CB800B2B449 /* Charts.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		609AA52D1EB7A52200B2B449 /* ObserveViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 609AA52C1EB7A52200B2B449 /* ObserveViewController.m */; };
 		609AA5311EB7A5B300B2B449 /* BaseVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 609AA5301EB7A5B300B2B449 /* BaseVC.m */; };
+		60AABD9B1ED05D7000DF58BD /* MChartDataPacket.m in Sources */ = {isa = PBXBuildFile; fileRef = 60AABD9A1ED05D7000DF58BD /* MChartDataPacket.m */; };
+		60AABD9E1ED0627A00DF58BD /* MLineDataPacket.m in Sources */ = {isa = PBXBuildFile; fileRef = 60AABD9D1ED0627A00DF58BD /* MLineDataPacket.m */; };
+		60AABDA11ED063EB00DF58BD /* MMultipleLinesDataPacket.m in Sources */ = {isa = PBXBuildFile; fileRef = 60AABDA01ED063EB00DF58BD /* MMultipleLinesDataPacket.m */; };
+		60AABDA41ED0644800DF58BD /* BaseModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 60AABDA31ED0644800DF58BD /* BaseModel.m */; };
+		60AABDA91ED08EA800DF58BD /* UIColor+Color.m in Sources */ = {isa = PBXBuildFile; fileRef = 60AABDA81ED08EA800DF58BD /* UIColor+Color.m */; };
+		60AABDAC1ED09EFE00DF58BD /* NSNumber+Number.m in Sources */ = {isa = PBXBuildFile; fileRef = 60AABDAB1ED09EFE00DF58BD /* NSNumber+Number.m */; };
 		60B96BA01EB54F0E00D9BED5 /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 60B96B9F1EB54F0E00D9BED5 /* MainViewController.m */; };
 		91887A174CDF43C1D8FFCDFB /* Pods_neuro.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 21F469F99874732F7F48939E /* Pods_neuro.framework */; };
 		BC1180C631C344778C36B474 /* Pods_neuroUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 11E786A1D783FC159FC6A697 /* Pods_neuroUITests.framework */; };
@@ -70,6 +79,11 @@
 		42E45A79627DAB3C28D4859C /* Pods-neuroTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-neuroTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-neuroTests/Pods-neuroTests.release.xcconfig"; sourceTree = "<group>"; };
 		4AB012107F4EE16DFDD7C3D9 /* Pods-neuro.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-neuro.debug.xcconfig"; path = "Pods/Target Support Files/Pods-neuro/Pods-neuro.debug.xcconfig"; sourceTree = "<group>"; };
 		535660F61D8FC7BD43F36712 /* Pods-neuroUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-neuroUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-neuroUITests/Pods-neuroUITests.release.xcconfig"; sourceTree = "<group>"; };
+		6028B6CD1ED19C8900EF68F5 /* GraphCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GraphCell.h; sourceTree = "<group>"; };
+		6028B6CE1ED19C8900EF68F5 /* GraphCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GraphCell.m; sourceTree = "<group>"; };
+		6028B6CF1ED19C8900EF68F5 /* GraphCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = GraphCell.xib; sourceTree = "<group>"; };
+		6028B6D21ED1A61400EF68F5 /* NSString+Muse.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+Muse.h"; sourceTree = "<group>"; };
+		6028B6D31ED1A61400EF68F5 /* NSString+Muse.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+Muse.m"; sourceTree = "<group>"; };
 		603D437A1E9804F7004D9666 /* neuro.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = neuro.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		603D437E1E9804F7004D9666 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		603D43801E9804F7004D9666 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -100,6 +114,18 @@
 		609AA52C1EB7A52200B2B449 /* ObserveViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ObserveViewController.m; path = VC/ObserveViewController.m; sourceTree = "<group>"; };
 		609AA52F1EB7A5B300B2B449 /* BaseVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BaseVC.h; path = Base/BaseVC.h; sourceTree = "<group>"; };
 		609AA5301EB7A5B300B2B449 /* BaseVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BaseVC.m; path = Base/BaseVC.m; sourceTree = "<group>"; };
+		60AABD991ED05D7000DF58BD /* MChartDataPacket.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MChartDataPacket.h; sourceTree = "<group>"; };
+		60AABD9A1ED05D7000DF58BD /* MChartDataPacket.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MChartDataPacket.m; sourceTree = "<group>"; };
+		60AABD9C1ED0627A00DF58BD /* MLineDataPacket.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MLineDataPacket.h; sourceTree = "<group>"; };
+		60AABD9D1ED0627A00DF58BD /* MLineDataPacket.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MLineDataPacket.m; sourceTree = "<group>"; };
+		60AABD9F1ED063EB00DF58BD /* MMultipleLinesDataPacket.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MMultipleLinesDataPacket.h; sourceTree = "<group>"; };
+		60AABDA01ED063EB00DF58BD /* MMultipleLinesDataPacket.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MMultipleLinesDataPacket.m; sourceTree = "<group>"; };
+		60AABDA21ED0644800DF58BD /* BaseModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseModel.h; sourceTree = "<group>"; };
+		60AABDA31ED0644800DF58BD /* BaseModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseModel.m; sourceTree = "<group>"; };
+		60AABDA71ED08EA800DF58BD /* UIColor+Color.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+Color.h"; sourceTree = "<group>"; };
+		60AABDA81ED08EA800DF58BD /* UIColor+Color.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+Color.m"; sourceTree = "<group>"; };
+		60AABDAA1ED09EFE00DF58BD /* NSNumber+Number.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSNumber+Number.h"; sourceTree = "<group>"; };
+		60AABDAB1ED09EFE00DF58BD /* NSNumber+Number.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSNumber+Number.m"; sourceTree = "<group>"; };
 		60B96B9E1EB54F0E00D9BED5 /* MainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MainViewController.h; path = VC/MainViewController.h; sourceTree = "<group>"; };
 		60B96B9F1EB54F0E00D9BED5 /* MainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MainViewController.m; path = VC/MainViewController.m; sourceTree = "<group>"; };
 		7AA7739F3A9B81A91C66DC56 /* Pods-neuro.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-neuro.release.xcconfig"; path = "Pods/Target Support Files/Pods-neuro/Pods-neuro.release.xcconfig"; sourceTree = "<group>"; };
@@ -154,6 +180,14 @@
 		602083C31ECF3F930091948C /* Models */ = {
 			isa = PBXGroup;
 			children = (
+				60AABD991ED05D7000DF58BD /* MChartDataPacket.h */,
+				60AABD9A1ED05D7000DF58BD /* MChartDataPacket.m */,
+				60AABD9C1ED0627A00DF58BD /* MLineDataPacket.h */,
+				60AABD9D1ED0627A00DF58BD /* MLineDataPacket.m */,
+				60AABD9F1ED063EB00DF58BD /* MMultipleLinesDataPacket.h */,
+				60AABDA01ED063EB00DF58BD /* MMultipleLinesDataPacket.m */,
+				60AABDA21ED0644800DF58BD /* BaseModel.h */,
+				60AABDA31ED0644800DF58BD /* BaseModel.m */,
 			);
 			name = Models;
 			sourceTree = "<group>";
@@ -193,8 +227,9 @@
 				603D43B81E9806AA004D9666 /* SimpleController.m */,
 				6073236E1EB68D7A00D4BBAF /* Singleton.h */,
 				6073236F1EB68D7A00D4BBAF /* Singleton.m */,
+				60AABDA51ED08DA500DF58BD /* Helpers */,
 				602083C31ECF3F930091948C /* Models */,
-				609AA52E1EB7A59300B2B449 /* Base */,
+				609AA52E1EB7A59300B2B449 /* BaseClasses */,
 				60B96BA11EB54F1400D9BED5 /* Scenes */,
 				603D43B91E9806AA004D9666 /* SimpleController.xib */,
 				603D43891E9804F8004D9666 /* Assets.xcassets */,
@@ -243,13 +278,29 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		609AA52E1EB7A59300B2B449 /* Base */ = {
+		609AA52E1EB7A59300B2B449 /* BaseClasses */ = {
 			isa = PBXGroup;
 			children = (
 				609AA52F1EB7A5B300B2B449 /* BaseVC.h */,
 				609AA5301EB7A5B300B2B449 /* BaseVC.m */,
+				6028B6CD1ED19C8900EF68F5 /* GraphCell.h */,
+				6028B6CE1ED19C8900EF68F5 /* GraphCell.m */,
+				6028B6CF1ED19C8900EF68F5 /* GraphCell.xib */,
 			);
-			name = Base;
+			name = BaseClasses;
+			sourceTree = "<group>";
+		};
+		60AABDA51ED08DA500DF58BD /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				60AABDA71ED08EA800DF58BD /* UIColor+Color.h */,
+				60AABDA81ED08EA800DF58BD /* UIColor+Color.m */,
+				60AABDAA1ED09EFE00DF58BD /* NSNumber+Number.h */,
+				60AABDAB1ED09EFE00DF58BD /* NSNumber+Number.m */,
+				6028B6D21ED1A61400EF68F5 /* NSString+Muse.h */,
+				6028B6D31ED1A61400EF68F5 /* NSString+Muse.m */,
+			);
+			name = Helpers;
 			sourceTree = "<group>";
 		};
 		60B96BA11EB54F1400D9BED5 /* Scenes */ = {
@@ -396,6 +447,7 @@
 				603D438D1E9804F8004D9666 /* LaunchScreen.storyboard in Resources */,
 				603D438A1E9804F8004D9666 /* Assets.xcassets in Resources */,
 				603D43881E9804F8004D9666 /* Main.storyboard in Resources */,
+				6028B6D11ED19C8900EF68F5 /* GraphCell.xib in Resources */,
 				603D43BB1E9806AA004D9666 /* SimpleController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -562,10 +614,18 @@
 				6073236D1EB68C5A00D4BBAF /* DetailViewController.m in Sources */,
 				603D43821E9804F7004D9666 /* AppDelegate.m in Sources */,
 				603D437F1E9804F7004D9666 /* main.m in Sources */,
+				60AABDA11ED063EB00DF58BD /* MMultipleLinesDataPacket.m in Sources */,
+				60AABD9E1ED0627A00DF58BD /* MLineDataPacket.m in Sources */,
 				607323701EB68D7A00D4BBAF /* Singleton.m in Sources */,
+				6028B6D01ED19C8900EF68F5 /* GraphCell.m in Sources */,
+				6028B6D41ED1A61400EF68F5 /* NSString+Muse.m in Sources */,
+				60AABDAC1ED09EFE00DF58BD /* NSNumber+Number.m in Sources */,
+				60AABDA41ED0644800DF58BD /* BaseModel.m in Sources */,
+				60AABD9B1ED05D7000DF58BD /* MChartDataPacket.m in Sources */,
 				609AA52D1EB7A52200B2B449 /* ObserveViewController.m in Sources */,
 				603D43BA1E9806AA004D9666 /* SimpleController.m in Sources */,
 				60B96BA01EB54F0E00D9BED5 /* MainViewController.m in Sources */,
+				60AABDA91ED08EA800DF58BD /* UIColor+Color.m in Sources */,
 				609AA5311EB7A5B300B2B449 /* BaseVC.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

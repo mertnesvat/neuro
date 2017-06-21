@@ -7,7 +7,11 @@
 //
 
 #import <Foundation/Foundation.h>
+#import "UIColor+Color.h"
 
 @interface BaseModel : NSObject
+
+- (BOOL)writeToFile;
+
 
 @end

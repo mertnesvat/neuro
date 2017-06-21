@@ -7,7 +7,9 @@
 //
 
 #import <UIKit/UIKit.h>
+@import Charts;
 
 @interface GraphCell : UITableViewCell
+@property (weak, nonatomic) IBOutlet LineChartView *chartView;
 
 @end

@@ -15,47 +15,15 @@
 
 @implementation DetailViewController
 NSString *strOption = @"";
-- (void)fetchOptions{
-    self.options = @[@"IXNMuseDataPacketTypeAccelerometer",
-                     @"IXNMuseDataPacketTypeGyro",
-                     @"IXNMuseDataPacketTypeEeg",
-                     @"IXNMuseDataPacketTypeDroppedAccelerometer",
-                     @"IXNMuseDataPacketTypeDroppedEeg",
-                     @"IXNMuseDataPacketTypeQuantization",
-                     @"IXNMuseDataPacketTypeBattery",
-                     @"IXNMuseDataPacketTypeDrlRef",
-                     @"IXNMuseDataPacketTypeAlphaAbsolute",
-                     @"IXNMuseDataPacketTypeBetaAbsolute",
-                     @"IXNMuseDataPacketTypeDeltaAbsolute",
-                     @"IXNMuseDataPacketTypeThetaAbsolute",
-                     @"IXNMuseDataPacketTypeGammaAbsolute",
-                     @"IXNMuseDataPacketTypeAlphaRelative",
-                     @"IXNMuseDataPacketTypeBetaRelative",
-                     @"IXNMuseDataPacketTypeDeltaRelative",
-                     @"IXNMuseDataPacketTypeThetaRelative",
-                     @"IXNMuseDataPacketTypeGammaRelative",
-                     @"IXNMuseDataPacketTypeAlphaScore",
-                     @"IXNMuseDataPacketTypeBetaScore",
-                     @"IXNMuseDataPacketTypeDeltaScore",
-                     @"IXNMuseDataPacketTypeThetaScore",
-                     @"IXNMuseDataPacketTypeGammaScore",
-                     @"IXNMuseDataPacketTypeIsGood",
-                     @"IXNMuseDataPacketTypeHsi",
-                     @"IXNMuseDataPacketTypeHsiPrecision",
-                     @"IXNMuseDataPacketTypeArtifacts",
-                     @"IXNMuseDataPacketTypeTotal"
-                     ];
-}
-
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    [self fetchOptions];
     // Do any additional setup after loading the view.
     UIBarButtonItem *nextButton = [[UIBarButtonItem alloc] initWithTitle:@"Next" style:UIBarButtonItemStyleDone target:self action:@selector(next)];
     
     self.navigationItem.rightBarButtonItem = nextButton;
     
+    _options = [@"" fetchMuseOptions];
     
     self.selectedOptions = @{}.mutableCopy;
 }

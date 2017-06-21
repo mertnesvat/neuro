@@ -8,11 +8,20 @@
 
 #import <UIKit/UIKit.h>
 #import "BaseVC.h"
+#import "GraphCell.h"
 
-@interface ObserveViewController : BaseVC <IXNMuseConnectionListener, IXNMuseDataListener, IXNMuseListener, IXNLogListener>
+@interface ObserveViewController : BaseVC <UITableViewDelegate, UITableViewDataSource, IXNMuseConnectionListener, IXNMuseDataListener, IXNMuseListener, IXNLogListener>
 
+@property (weak, nonatomic) IBOutlet UITableView *tableView;
 @property (nonatomic, strong) NSDictionary *selectedOptions;
 @property (nonatomic, strong) NSMutableDictionary *optionsDataset;
 @property (nonatomic, strong) NSString *selectedDataSet;
+@property (nonatomic, strong) NSArray<MMultipleLinesDataPacket *> *lines;
+@property (nonatomic, strong) MMultipleLinesDataPacket *multi;
+
+
+@property (nonnull, strong) NSMutableArray *testArrayOfDataPacket;
+
+
 
 @end

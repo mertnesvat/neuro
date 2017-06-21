@@ -7,7 +7,16 @@
 //
 
 #import <Foundation/Foundation.h>
+#import "MChartDataPacket.h"
 
-@interface MLineDataPacket : NSObject
+@interface MLineDataPacket : BaseModel
+@property NSMutableArray<ChartDataEntry *> *chartDataArray;
+@property LineChartDataSet *chartDataSet;
+@property int showingDataLimit; 
+
+- (void)addOneValueByX:(NSNumber *)x andY:(NSNumber *)y;
+- (MLineDataPacket *)initWithTitle:(NSString *)title;
+
+
 
 @end

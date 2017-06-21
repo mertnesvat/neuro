@@ -7,7 +7,10 @@
 //
 
 #import <Foundation/Foundation.h>
+#import <Muse/Muse.h>
 
 @interface NSString (Muse)
-
+- (NSString*)formatIXNDataPacketTypeToString:(IXNMuseDataPacketType)formatType;
+- (NSArray *)fetchMuseOptions;
+- (NSString *)fetchMuseStringFromInt:(NSNumber *)index;
 @end

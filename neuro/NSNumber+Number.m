@@ -9,5 +9,7 @@
 #import "NSNumber+Number.h"
 
 @implementation NSNumber (Number)
-
+- (NSNumber *)randomNumber{
+    return [[NSNumber alloc]initWithInt:(random() % 10)];
+}
 @end
